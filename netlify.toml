@@ -1,0 +1,7 @@
+[build.environment]
+CI = "true"
+NODE_VERSION = "10"
+# WARNING netlify-build ignores NPM_FLAGS when installing plugins, so use low-level NPM_CONFIG_ flag instead
+#NPM_FLAGS = "--no-optional"
+NPM_CONFIG_OPTIONAL = "false"
+ANTORA_CACHE_DIR = "node_modules/.cache/antora"
