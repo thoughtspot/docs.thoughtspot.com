@@ -5,3 +5,27 @@ NODE_VERSION = "10"
 #NPM_FLAGS = "--no-optional"
 NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
+
+[[redirects]]
+  from = "/6.3/*"
+  to = "/6.3/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/6.2/*"
+  to = "/6.2/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/6.1/*"
+  to = "/6.1/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/6.0/*"
+  to = "/6.0/404.html"
+  status = 404
+  force = true
