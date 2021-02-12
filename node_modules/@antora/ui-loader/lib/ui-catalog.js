@@ -7,7 +7,7 @@ class UiCatalog {
     this[$files] = new Map()
   }
 
-  getAll () {
+  getFiles () {
     return [...this[$files].values()]
   }
 
@@ -29,9 +29,9 @@ class UiCatalog {
 }
 
 /**
- * @deprecated superceded by getAll
+ * @deprecated superceded by getFiles(); scheduled to be removed in Antora 4
  */
-UiCatalog.prototype.getFiles = UiCatalog.prototype.getAll
+UiCatalog.prototype.getAll = UiCatalog.prototype.getFiles
 
 function generateKey ({ type, path }) {
   return type + '$' + path
