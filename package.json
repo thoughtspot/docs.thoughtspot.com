@@ -1,9 +1,8 @@
 {
   "private": "true",
   "scripts": {
-    "clean-build": "npm run clean-install;npm run build",
-    "clean-install": "rm -rf node_modules/ .cache/ package-lock.json;npm i --cache=.cache/npm",
-    "build": "node_modules/.bin/antora antora-playbook.yml --stacktrace --fetch --clean"
+    "plain-install": "npm i --cache=.cache/npm --no-optional",
+    "build": "antora antora-playbook.yml --stacktrace --fetch --clean"
   },
   "devDependencies": {
     "@antora/cli": "^3.0.0-alpha.1",
@@ -13,5 +12,5 @@
   "scripts": {
   "plain-install": "npm i --cache=.cache/npm --no-optional",
   "build": "antora antora-playbook.yml --stacktrace --fetch --clean"
-  },
+  }
 }
