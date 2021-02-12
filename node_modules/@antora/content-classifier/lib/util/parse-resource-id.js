@@ -53,8 +53,6 @@ function parseResourceId (spec, ctx = {}, defaultFamily = 'page', permittedFamil
     family = defaultFamily
   }
 
-  if (family === 'page' && relative.indexOf('.') < 0) relative += '.adoc'
-
   if (~relative.indexOf('/')) {
     relative = relative
       .split('/')

@@ -1,0 +1,33 @@
+site:
+  title: ThoughtSpot Demo Site
+  url: https://docs-thoughtspot-com.netlify.app
+content:
+  sources:
+  # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
+  - url: git@github.com:thoughtspot/thoughtspot-docs.git
+    branches: ['6.0', '6.1', '6.2']
+    start_path: software/
+urls:
+  latest_version_segment_strategy: redirect:to
+  latest_version_segment: latest
+ui:
+  bundle:
+    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ui-bundle/ui2-bundle.zip
+  supplemental_files:
+  - path: .nojekyll
+  - path: ui.yml
+    contents: "static_files: [ .nojekyll ]"
+    snapshot: true
+asciidoc:
+  attributes:
+    software: true
+    cloud: false
+    tabs: tabs
+  extensions:
+    - "@djencks/asciidoctor-tabset-block"
+output:
+  clean: true
+  dir: build/software
+runtime:
+  fetch: true

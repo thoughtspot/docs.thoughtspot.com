@@ -75,16 +75,6 @@ function freeze (o) {
 function exportModel (config) {
   const schemaProperties = config._schema._cvtProperties
   const data = config.getProperties()
-  if ('git' in schemaProperties && 'ensureGitSuffix' in schemaProperties.git._cvtProperties) {
-    const git = data.git
-    if (git.ensureGitSuffix != null) git.ensure_git_suffix = git.ensureGitSuffix
-    delete git.ensureGitSuffix
-  }
-  if ('runtime' in schemaProperties && 'pull' in schemaProperties.runtime._cvtProperties) {
-    const runtime = data.runtime
-    if (runtime.pull != null) runtime.fetch = runtime.pull
-    delete runtime.pull
-  }
   if (
     'site' in schemaProperties &&
     'keys' in schemaProperties.site._cvtProperties &&

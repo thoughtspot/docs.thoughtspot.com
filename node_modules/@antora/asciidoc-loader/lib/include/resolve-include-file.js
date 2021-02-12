@@ -23,6 +23,7 @@ function resolveIncludeFile (target, page, cursor, catalog) {
   let resolved
   let family
   let relative
+  // @deprecated interpret non-URL target as resource ID starting in Antora 4
   if (RESOURCE_ID_DETECTOR_RX.test(target)) {
     // NOTE support legacy {partialsdir} and {examplesdir} prefixes (same as resource ID w/ only family and relative)
     if (target.startsWith(PARTIALS_DIR_TOKEN) || target.startsWith(EXAMPLES_DIR_TOKEN)) {

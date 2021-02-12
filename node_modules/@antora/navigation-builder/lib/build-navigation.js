@@ -35,14 +35,15 @@ function buildNavigation (contentCatalog, siteAsciiDocConfig = {}) {
       const { component, version } = navFile.src
       const key = version + '@' + component
       const val = accum.get(key)
-      if (val) return new Map(accum).set(key, Object.assign({}, val, { navFiles: val.navFiles.concat(navFile) }))
+      if (val) return new Map(accum).set(key, Object.assign({}, val, { navFiles: [...val.navFiles, navFile] }))
       const componentVersion = contentCatalog.getComponentVersion(component, version)
       const asciidocConfig = Object.assign({}, componentVersion.asciidoc || siteAsciiDocConfig, navAsciiDocConfig)
       return new Map(accum).set(key, { component, version, componentVersion, asciidocConfig, navFiles: [navFile] })
     }, new Map())
     .forEach(({ component, version, componentVersion, asciidocConfig, navFiles }) => {
       const trees = navFiles.reduce((accum, navFile) => {
-        return accum.concat(loadNavigationFile(navFile, contentCatalog, asciidocConfig))
+        accum.push(...loadNavigationFile(navFile, contentCatalog, asciidocConfig))
+        return accum
       }, [])
       componentVersion.navigation = navCatalog.addNavigation(component, version, trees)
     })

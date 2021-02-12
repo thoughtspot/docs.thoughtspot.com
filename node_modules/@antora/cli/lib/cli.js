@@ -47,7 +47,7 @@ cli
   .usage('[options] [[command] [args]]')
   .helpOption('-h, --help', 'Output usage information.')
   .option('-r, --require <library>', 'Require library (aka node module) or script before executing command.')
-  .on('option:require', (requirePath) => (cli.requirePaths = (cli.requirePaths || []).concat(requirePath)))
+  .on('option:require', (requirePath) => (cli.requirePaths = [...(cli.requirePaths || []), requirePath]))
   .option('--stacktrace', 'Print the stacktrace to the console if the application fails.')
 
 cli
