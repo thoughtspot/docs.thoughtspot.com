@@ -1,8 +1,6 @@
 = ThoughtSpot Documentation
 :page-layout: home
 
-= Couchbase Documentation
-
 https://cloud-docs.thoughtspot.com[Go to Cloud]
 
-https://docs-thoughtspot.com[Go to Software]
+https://docs-thoughtspot-com.netlify.app/software/latest/[Go to Software]
