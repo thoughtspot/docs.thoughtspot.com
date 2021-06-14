@@ -1,6 +1,6 @@
 site:
   title: ThoughtSpot Software Documentation
-  url: https://docs-thoughtspot-com.netlify.app
+  url: https://docs-thoughtspot-com.netlify.app/software
   start_page: home::index.adoc
 content:
   sources:
