@@ -1,6 +1,7 @@
 site:
   title: ThoughtSpot Software Documentation
   url: https://docs-thoughtspot-com.netlify.app
+  start_page: home::index.adoc
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
