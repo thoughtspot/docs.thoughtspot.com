@@ -1,6 +1,36 @@
 = ThoughtSpot Documentation
 :page-layout: home
 
-https://cloud-docs.thoughtspot.com[Go to Cloud]
-
-https://docs-thoughtspot-com.netlify.app/software/latest/[Go to Software]
+[.conceal-title]
+== {empty}
+++++
+<div class="columns">
+  <div class="box">
+    <img src="_images/persona-business-user.png">
+    <h2>
+      Software documentation
+    </h2>
+    <ul>
+      <li><a href="https://docs-thoughtspot-com.netlify.app/software/latest">Software documentation</a></li>
+    </ul>
+    </div>
+  <div class="box">
+    <img src="_images/persona-analyst.png">
+    <h2>
+      Cloud documentation
+    </h2>
+    <ul>
+      <li><a href="https://cloud-docs.thoughtspot.com/">Cloud documentation</a></li>
+    </ul>
+    </div>
+  <div class="box">
+    <img src="_images/persona-data-engineer.png">
+    <h2>
+      Developer documentation
+    </h2>
+    <ul>
+      <li><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction">Developer documentation</a></li>
+    </ul>
+    </div>
+ </div>
+++++
