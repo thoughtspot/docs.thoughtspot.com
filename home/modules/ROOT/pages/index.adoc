@@ -5,7 +5,6 @@ Choose the documentation you need from the following choices:
 [.conceal-title]
 == {empty}
 ++++
-<br><br>
 <div class="columns">
   <div class="box">
     <!-- <img src="_images/persona-business-user.png"> -->
@@ -14,7 +13,7 @@ Choose the documentation you need from the following choices:
     </h2>
     <p>Deploy and manage ThoughtSpot in your own private cloud.</p>
     <ul>
-      <li><a href="https://docs-thoughtspot-com.netlify.app/software/latest">Software documentation</a></li>
+      <li><a href="https://docs-thoughtspot-com.netlify.app/software/latest">Go to Software docs</a></li>
     </ul>
     </div>
   <div class="box">
@@ -24,7 +23,7 @@ Choose the documentation you need from the following choices:
     </h2>
     <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p>
     <ul>
-      <li><a href="https://cloud-docs.thoughtspot.com/">Cloud documentation</a></li>
+      <li><a href="https://cloud-docs.thoughtspot.com/">Go to Cloud docs</a></li>
     </ul>
     </div>
   <div class="box">
@@ -34,7 +33,7 @@ Choose the documentation you need from the following choices:
     </h2>
     <p>Build interactive data apps with a low-code developer-friendly platform.</p>
     <ul>
-      <li><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction">Developer documentation</a></li>
+      <li><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction">Go to Developer docs</a></li>
     </ul>
     </div>
  </div>
