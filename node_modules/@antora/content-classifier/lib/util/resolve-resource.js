@@ -28,7 +28,7 @@ function resolveResource (spec, catalog, ctx = {}, defaultFamily = undefined, pe
   const id = parseResourceId(spec, ctx, defaultFamily, permittedFamilies)
 
   if (!id || !id.family) return false
-  if (!id.version) {
+  if (id.version == null) {
     const component = catalog.getComponent(id.component)
     if (!component) return
     id.version = component.latest.version

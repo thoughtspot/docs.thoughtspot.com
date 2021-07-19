@@ -43,10 +43,12 @@ function classifyContent (playbook, aggregate, siteAsciiDocConfig = {}) {
 }
 
 function allocateSrc (file, component, version, nav) {
+  const extname = file.src.extname
   const filepath = file.path
-  const pathSegments = filepath.split('/')
   const navInfo = nav && getNavInfo(filepath, nav)
+  const pathSegments = filepath.split('/')
   if (navInfo) {
+    if (extname !== '.adoc') return // ignore file
     file.nav = navInfo
     file.src.family = 'nav'
     if (pathSegments[0] === 'modules' && pathSegments.length > 2) {
@@ -67,45 +69,47 @@ function allocateSrc (file, component, version, nav) {
           file.src.family = 'partial'
           // relative to modules/<module>/pages/_partials (deprecated)
           file.src.relative = pathSegments.slice(4).join('/')
-        } else if (file.src.extname === '.adoc') {
+        } else if (extname === '.adoc') {
           file.src.family = 'page'
           // relative to modules/<module>/pages
           file.src.relative = pathSegments.slice(3).join('/')
         } else {
-          // ignore file
-          return
+          return // ignore file
         }
         break
       case 'assets':
         switch ((familyFolder = pathSegments[3])) {
           case 'attachments':
           case 'images':
+            if (!extname) return // ignore file
             file.src.family = familyFolder.substr(0, familyFolder.length - 1)
             // relative to modules/<module>/assets/<family>s
             file.src.relative = pathSegments.slice(4).join('/')
             break
           default:
-            // ignore file
-            return
+            return // ignore file
         }
         break
       case 'attachments':
-      case 'examples':
       case 'images':
+        if (!extname) return
+        file.src.family = familyFolder.substr(0, familyFolder.length - 1)
+        // relative to modules/<module>/<family>s
+        file.src.relative = pathSegments.slice(3).join('/')
+        break
+      case 'examples':
       case 'partials':
         file.src.family = familyFolder.substr(0, familyFolder.length - 1)
         // relative to modules/<module>/<family>s
         file.src.relative = pathSegments.slice(3).join('/')
         break
       default:
-        // ignore file
-        return
+        return // ignore file
     }
     file.src.module = pathSegments[1]
     file.src.moduleRootPath = calculateRootPath(pathSegments.length - 3)
   } else {
-    // ignore file
-    return
+    return // ignore file
   }
   file.src.component = component
   file.src.version = version

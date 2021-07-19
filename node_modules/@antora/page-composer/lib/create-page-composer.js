@@ -2,6 +2,7 @@
 
 const { buildBaseUiModel, buildUiModel } = require('./build-ui-model')
 const handlebars = require('handlebars')
+const logger = require('./logger')
 const relativize = require('./helpers/relativize')
 const resolvePage = require('./helpers/resolve-page')
 const resolvePageURL = require('./helpers/resolve-page-url')
@@ -76,7 +77,7 @@ function createPageComposerInternal (baseUiModel, layouts) {
       } else if (!layouts.has(defaultLayout)) {
         throw new Error(`Neither ${layout} layout or fallback ${defaultLayout} layout found`)
       }
-      // TODO log a warning that the default template is being used; perhaps on file?
+      logger.warn("page layout '%s' specified by page not found; using default layout", layout)
       layout = defaultLayout
     }
     // QUESTION should we call trim() on result?

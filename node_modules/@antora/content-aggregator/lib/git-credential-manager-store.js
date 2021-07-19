@@ -62,7 +62,7 @@ class GitCredentialManagerStore {
                   if (password) {
                     credentials = { username: decodeURIComponent(username), password: decodeURIComponent(password) }
                   } else if (username) {
-                    credentials = { token: decodeURIComponent(username) }
+                    credentials = { username: decodeURIComponent(username), password: '' }
                   } else {
                     return accum
                   }
@@ -101,7 +101,7 @@ class GitCredentialManagerStore {
     const statusCode = 401
     const statusMessage = 'HTTP Basic: Access Denied'
     const err = new Error(`HTTP Error: ${statusCode} ${statusMessage}`)
-    err.name = err.code = 'HTTPError'
+    err.name = err.code = 'HttpError'
     err.data = { statusCode, statusMessage }
     if (auth) err.rejected = true
     throw err

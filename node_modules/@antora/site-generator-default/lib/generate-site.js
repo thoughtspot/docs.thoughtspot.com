@@ -26,7 +26,15 @@ async function generateSite (args, env) {
   const siteFiles = [...mapSite(playbook, pages), ...produceRedirects(playbook, contentCatalog)]
   if (playbook.site.url) siteFiles.push(composePage(create404Page()))
   const siteCatalog = { getFiles: () => siteFiles }
-  return publishSite(playbook, [contentCatalog, uiCatalog, siteCatalog])
+  return publishSite(playbook, [contentCatalog, uiCatalog, siteCatalog]).then((publications) => {
+    if (!playbook.runtime.quiet && process.stdout.isTTY) {
+      process.stdout.write('Site generation complete!\n')
+      publications.forEach(
+        ({ fileUri }) => fileUri && process.stdout.write(`View the site by visiting ${fileUri} in a browser.\n`)
+      )
+    }
+    return publications
+  })
 }
 
 function create404Page () {
