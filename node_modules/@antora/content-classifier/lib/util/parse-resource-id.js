@@ -39,11 +39,13 @@ function parseResourceId (spec, ctx = {}, defaultFamily = 'page', permittedFamil
   let family = match[RESOURCE_ID_RX_GROUP.family]
   let relative = match[RESOURCE_ID_RX_GROUP.relative]
 
+  if (version === '_') version = ''
+
   if (component) {
     if (!module_) module_ = 'ROOT'
   } else {
     component = ctx.component
-    if (!version) version = ctx.version
+    if (version == null) version = ctx.version
     if (!module_) module_ = ctx.module
   }
 

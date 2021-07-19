@@ -111,7 +111,7 @@ function createNginxRewriteConf (files, urlPath) {
     let toUrl = file.rel.pub.url
     toUrl = ~toUrl.indexOf('%20') ? `'${urlPath}${toUrl.replace(ENCODED_SPACE_RX, ' ')}'` : urlPath + toUrl
     if (file.pub.splat) {
-      return `location ^~ ${fromUrl}/ { rewrite ^${regexpEscape(fromUrl)}/(.*)$ ${regexpEscape(toUrl)}/$1; }`
+      return `location ^~ ${fromUrl}/ { rewrite ^${regexpEscape(fromUrl)}/(.*)$ ${regexpEscape(toUrl)}/$1 redirect; }`
     } else {
       return `location = ${fromUrl} { return 301 ${toUrl}; }`
     }

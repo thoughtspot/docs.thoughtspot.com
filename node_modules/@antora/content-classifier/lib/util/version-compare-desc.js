@@ -21,13 +21,16 @@ const { isInteger } = Number
  */
 function versionCompareDesc (a, b) {
   if (a === b) return 0
-  const semverA = resolveSemver(a)
-  const semverB = resolveSemver(b)
-  if (semverA) {
-    return semverB ? -semverCompare(semverA, semverB) : 1
-  } else {
-    return semverB ? -1 : -a.localeCompare(b, 'en', { numeric: true })
+  if (a && b) {
+    const semverA = resolveSemver(a)
+    const semverB = resolveSemver(b)
+    if (semverA) {
+      return semverB ? -semverCompare(semverA, semverB) : 1
+    } else {
+      return semverB ? -1 : -a.localeCompare(b, 'en', { numeric: true })
+    }
   }
+  return a ? 1 : -1
 }
 
 function resolveSemver (str) {
