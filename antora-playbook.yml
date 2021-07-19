@@ -36,4 +36,4 @@ output:
 runtime:
   fetch: true
   log:
-    level: silent 
+    level: error 
