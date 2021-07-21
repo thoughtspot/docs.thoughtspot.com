@@ -7,6 +7,7 @@ const {readdirSync, readFileSync, writeFileSync, mkdirSync, unlinkSync, existsSy
 const basePath = path.join(__dirname, '') + '/build'
 const outputPath = basePath + '/embed-snippets'
 
+console.log(`folder: ${folder}, basePath: ${basePath}, outputPath: ${outputPath}`)
 
 try {
 	if (!folder || !existsSync(outputPath))
@@ -117,6 +118,8 @@ const generateFileSnippets = (path, file) => {
 	let sourceHtml = readFileSync(`${basePath}${folder}${path}/${file}`).toString()
 	let htmlRows = sourceHtml.split('\n')
 
+	console.log(`generateFileSnippets: ${path} ${file}`)
+
 	let foundTags = extractSnippetHtml(htmlRows, [])
 	// if (foundTags.length)
 	// 	console.log('!!!!', foundTags)
@@ -176,5 +179,7 @@ const generateSnippets = (filesAndFolders, currentPath) => {
 // generateTestData()
 
 const filesAndFoldersToCrawl = getFilesAndDirectories(basePath + folder + '/')
+
+console.log('filesAndFoldersToCrawl', JSON.stringify(filesAndFoldersToCrawl))
 
 generateSnippets(filesAndFoldersToCrawl, '')
