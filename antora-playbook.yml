@@ -9,7 +9,7 @@ content:
     start_path: home
   - url: https://github.com/thoughtspot/thoughtspot-docs.git
     branches: ['6.0', '6.1', '6.2', '6.3']
-    start_path: software/
+    start_path: software
     edit_url: false
 urls:
   latest_version_segment_strategy: redirect:to
@@ -17,23 +17,22 @@ urls:
 ui:
   bundle:
     # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    #snapshot: true
     url: ui-bundle/ui2-bundle.zip
   supplemental_files:
   - path: .nojekyll
   - path: ui.yml
     contents: "static_files: [ .nojekyll ]"
-    snapshot: true
 asciidoc:
   attributes:
     software: true
     cloud: false
     tabs: tabs
   extensions:
-    - "@djencks/asciidoctor-tabset-block"
+  - ./log-phase.js
+  - "@djencks/asciidoctor-tabset-block"
 output:
-  clean: true
   dir: build/software
 runtime:
-  fetch: true
   log:
     level: error 
