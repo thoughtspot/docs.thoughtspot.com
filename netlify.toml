@@ -1,9 +1,9 @@
 [build.environment]
 CI = "true"
-NODE_VERSION = "10"
+NODE_VERSION = "16"
 NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 NODE_OPTIONS = "--max-old-space-size=4096"
 
 [build]
-command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --fetch --clean"
+command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --fetch --clean --log-level=silent"
