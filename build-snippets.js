@@ -5,16 +5,10 @@ const path = require('path')
 const {readdirSync, readFileSync, writeFileSync, mkdirSync, unlinkSync, existsSync} = require('fs')
 
 const basePath = path.join(__dirname, '') + '/build'
-const outputPath = basePath + '/embed-snippets'
+const outputPath = basePath + folder
+const outputFolder = 'embed-snippets'
 
 console.log(`folder: ${folder}, basePath: ${basePath}, outputPath: ${outputPath}`)
-
-try {
-	if (!folder || !existsSync(outputPath))
-		mkdirSync(outputPath)
-} catch(e) {
-	return
-}
 
 const docsBaseUrl = 'https://docs.thoughtspot.com/latest'
 
@@ -22,7 +16,7 @@ const embedTemplate = `
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../../../../../css/snippet.css" />
+		<link rel="stylesheet" href="https://docs-thoughtspot-com.netlify.app/_/css/vendor/snippet.css" />
 		<title>$title</title>
 	</head>
 	<body>
@@ -118,12 +112,20 @@ const generateFileSnippets = (path, file) => {
 	let sourceHtml = readFileSync(`${basePath}${folder}${path}/${file}`).toString()
 	let htmlRows = sourceHtml.split('\n')
 
-	console.log(`generateFileSnippets: ${path} ${file}`)
 
 	let foundTags = extractSnippetHtml(htmlRows, [])
-	// if (foundTags.length)
-	// 	console.log('!!!!', foundTags)
 
+	const snippetOutputPath = `${outputPath}/${path.split('/')[1]}/${outputFolder}/`
+
+	if (foundTags.length)
+		console.log(`generateFileSnippets: ${snippetOutputPath} ${file}`)
+
+	try {
+		if (!snippetOutputPath || !existsSync(snippetOutputPath))
+			mkdirSync(snippetOutputPath)
+	} catch(e) {
+		return
+	}
 
 	foundTags.forEach((tag) => {
 		let outputHtml = tag.htmlRows.join('\n')
@@ -135,9 +137,10 @@ const generateFileSnippets = (path, file) => {
 
 		const fileNameArray = file.split('.')
 		fileNameArray[fileNameArray.length-2] += `]${tag.label}`
-		const snippetFileName = '[' + path.replace(/[^\w]/g, '.').slice(1) + ']' + '[' + fileNameArray.join('.')
 
-		writeFileSync(`${outputPath}/${snippetFileName}`, outputHtml)
+		const snippetFileName = '[' + path.split('/').slice(2) + ']' + '[' + fileNameArray.join('.')
+
+		writeFileSync(`${snippetOutputPath}/${snippetFileName}`, outputHtml)
 	})
 }
 
@@ -178,8 +181,10 @@ const generateSnippets = (filesAndFolders, currentPath) => {
 
 // generateTestData()
 
+// output to build/software/Software/6.2/embed-snippets/[filename].html
+
 const filesAndFoldersToCrawl = getFilesAndDirectories(basePath + folder + '/')
 
-console.log('filesAndFoldersToCrawl', JSON.stringify(filesAndFoldersToCrawl))
+// console.log('filesAndFoldersToCrawl', JSON.stringify(filesAndFoldersToCrawl))
 
 generateSnippets(filesAndFoldersToCrawl, '')
