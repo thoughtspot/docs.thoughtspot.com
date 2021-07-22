@@ -30,6 +30,7 @@ asciidoc:
     tabs: tabs
   extensions:
   - ./log-phase.js
+  - ./asciidoctor-performance-patch.js
   - "@djencks/asciidoctor-tabset-block"
 output:
   dir: build/software
