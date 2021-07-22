@@ -33,6 +33,6 @@ asciidoc:
   - "@djencks/asciidoctor-tabset-block"
 output:
   dir: build/software
-runtime:
-  log:
-    level: error 
+#runtime:
+#  log:
+#    level: error 
