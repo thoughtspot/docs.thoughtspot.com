@@ -29,7 +29,8 @@ asciidoc:
     cloud: false
     tabs: tabs
   extensions:
-    - "@djencks/asciidoctor-tabset-block"
+  - ./lib/asciidoctor-performance-patch.js
+  - "@djencks/asciidoctor-tabset-block"
 output:
   clean: true
   dir: build/software
