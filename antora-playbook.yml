@@ -37,4 +37,4 @@ output:
 runtime:
   fetch: true
   log:
-    level: error 
+    level: error
