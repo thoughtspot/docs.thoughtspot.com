@@ -38,3 +38,5 @@ runtime:
   fetch: true
   log:
     level: error
+urls:
+  html_extension_style: indexify    
