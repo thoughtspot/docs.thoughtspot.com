@@ -6,7 +6,7 @@ Choose the documentation you need from the following choices:
 == {empty}
 ++++
 <div class="columns">
-  <div class="box">
+  <div class="box-home">
     <!-- <img src="_images/persona-business-user.png"> -->
     <h2>
       Software documentation
@@ -16,7 +16,7 @@ Choose the documentation you need from the following choices:
       <li><a href="https://docs-thoughtspot-com.netlify.app/software/latest">Go to Software docs</a></li>
     </ul>
     </div>
-  <div class="box">
+  <div class="box-home">
   <!--   <img src="_images/persona-analyst.png"> -->
     <h2>
       Cloud documentation
@@ -26,7 +26,7 @@ Choose the documentation you need from the following choices:
       <li><a href="https://cloud-docs.thoughtspot.com/">Go to Cloud docs</a></li>
     </ul>
     </div>
-  <div class="box">
+  <div class="box-home">
     <!-- <img src="_images/persona-data-engineer.png"> -->
     <h2>
       Developer documentation
