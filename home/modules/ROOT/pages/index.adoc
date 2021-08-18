@@ -7,7 +7,7 @@ Choose the documentation you need from the following choices:
 ++++
 <div class="columns">
   <div class="box-home">
-    <!-- <img src="_images/persona-business-user.png"> -->
+    <img src="_images/software.png">
     <h2>
       Software documentation
     </h2>
@@ -17,7 +17,7 @@ Choose the documentation you need from the following choices:
     </ul>
     </div>
   <div class="box-home">
-  <!--   <img src="_images/persona-analyst.png"> -->
+  <img src="_images/cloud.png">
     <h2>
       Cloud documentation
     </h2>
@@ -27,7 +27,7 @@ Choose the documentation you need from the following choices:
     </ul>
     </div>
   <div class="box-home">
-    <!-- <img src="_images/persona-data-engineer.png"> -->
+    <img src="_images/developer.png">
     <h2>
       Developer documentation
     </h2>
