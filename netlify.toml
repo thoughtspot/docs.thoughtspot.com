@@ -22,3 +22,553 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "/software/latest/:splat"
   status = 301
   force = true
+[[redirects]]
+  from = "/7.1/release/help-center.html"
+  to = "/software/latest/help-center.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/7.1/reference/keywords.html"
+  to = "/software/latest/keywords.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/7.1/release/downloads.html"
+  to = "/software/latest/downloads.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/7.1/release/notes.html"
+  to = "/software/latest/notes.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/release/notes.html"
+  to = "/software/latest/notes.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/7.1/*"
+  to = "/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/6.2/reference/keywords.html"
+  to = "/software/latest/keywords.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/setup/internal-auth.html"
+  to = "/software/latest/internal-auth.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/setup/LDAP-config-AD.html"
+  to = "/software/latest/LDAP-config-AD.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/app-integrate/SAML/configure-SAML-with-tscli.html"
+  to = "/software/latest/configure-SAML-with-tscli.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/setup/SSL-config.html"
+  to = "/software/latest/SSL-config.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/setup/work-with-ts-support.html#set-up-a-reverse-tunnel-for-support"
+  to = "/software/latest/work-with-ts-support.html#set-up-a-reverse-tunnel-for-support"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/setup/set-up-relay-host.html"
+  to = "/software/latest/set-up-relay-host.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/setup/NAS-mount.html"
+  to = "/software/latest/NAS-mount.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/backup-restore/overview-snapshot.html"
+  to = "/software/latest/overview-snapshot.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/users-groups/about-users-groups.html"
+  to = "/software/latest/about-users-groups.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/scriptability/app-templates.html"
+  to = "/software/latest/app-templates.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/ts-cloud/tsl.html"
+  to = "/software/latest/tsl.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/reference/keywords.html"
+  to = "/software/latest/keywords.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/end-user/search/about-searchiq.html"
+  to = "/software/latest/about-searchiq.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/end-user/search/searchiq-optimize.html"
+  to = "/software/latest/searchiq-optimize.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/worksheets/mod-ws-internal-joins.html"
+  to = "/software/latest/mod-ws-internal-joins.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/loading/materialized-views.html"
+  to = "/software/latest/materialized-views.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-snowflake-reference.html"
+  to = "/software/latest/connections-snowflake-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-redshift-reference.html"
+  to = "/software/latest/connections-redshift-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-gbq-reference.html"
+  to = "/software/latest/connections-gbq-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-synapse-reference.html"
+  to = "/software/latest/connections-synapse-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-teradata-reference.html"
+  to = "/software/latest/connections-teradata-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-hana-reference.html"
+  to = "/software/latest/connections-hana-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-adw-reference.html"
+  to = "/software/latest/connections-adw-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-databricks-reference.html"
+  to = "/software/latest/connections-databricks-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/embrace/embrace-starburst-reference.html"
+  to = "/software/latest/connections-starburst-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/scriptability/tsl-table.html"
+  to = "/software/latest/tsl-table.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/scriptability/tsl-pinboard.html"
+  to = "/software/latest/tsl-pinboard.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/scriptability/tsl-answer.html"
+  to = "/software/latest/tsl-answer.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/scriptability/tsl-view.html"
+  to = "/software/latest/tsl-view.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/admin/worksheets/yaml-worksheet.html"
+  to = "/software/latest/yaml-worksheet.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-amazon-aurora-reference.html#connection-properties"
+  to = "/software/latest/dataflow-amazon-aurora-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-amazon-aurora-reference.html#sync-properties"
+  to = "/software/latest/dataflow-amazon-aurora-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-amazon-redshift-reference.html#connection-properties"
+  to = "/software/latest/dataflow-amazon-redshift-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-azure-synapse-reference.html#sync-properties"
+  to = "/software/latest/dataflow-azure-synapse-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-azure-synapse-reference.html#connection-properties"
+  to = "/software/latest/dataflow-azure-synapse-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-cassandra-reference.html#sync-properties"
+  to = "/software/latest/dataflow-cassandra-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-cassandra-reference.html#connection-properties"
+  to = "/software/latest/dataflow-cassandra-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-databricks-delta-lake-reference.html#sync-properties"
+  to = "/software/latest/dataflow-databricks-delta-lake-reference#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-databricks-delta-lake-reference.html#connection-properties"
+  to = "/software/latest/dataflow-databricks-delta-lake-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-denodo-reference.html#sync-properties"
+  to = "/software/latest/dataflow-denodo-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-denodo-reference.html#connection-properties"
+  to = "/software/latest/dataflow-denodo-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-exadata-reference.html#sync-properties"
+  to = "/software/latest/dataflow-exadata-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-exadata-reference.html#connection-properties"
+  to = "/software/latest/dataflow-exadata-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-google-bigquery-reference.html#sync-properties"
+  to = "/software/latest/dataflow-google-bigquery-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-google-bigquery-reference.html#connection-properties"
+  to = "/software/latest/dataflow-google-bigquery-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-greenplum-reference.html#sync-properties"
+  to = "/software/latest/dataflow-greenplum-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-greenplum-reference.html#connection-properties"
+  to = "/software/latest/dataflow-greenplum-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-hive-reference.html#sync-properties"
+  to = "/software/latest/dataflow-hive-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-hive-reference.html#connection-properties"
+  to = "/software/latest/dataflow-hive-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-ibm-db2-reference.html#sync-properties"
+  to = "/software/latest/dataflow-ibm-db2-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-ibm-db2-reference.html#connection-properties"
+  to = "/software/latest/dataflow-ibm-db2-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-jdbc-reference.html#sync-properties"
+  to = "/software/latest/dataflow-jdbc-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-jdbc-reference.html#connection-properties"
+  to = "/software/latest/dataflow-jdbc-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-mariadb-reference.html#sync-properties"
+  to = "/software/latest/dataflow-mariadb-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-mariadb-reference.html#connection-properties"
+  to = "/software/latest/dataflow-mariadb-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-mongodb-reference.html#sync-properties"
+  to = "/software/latest/dataflow-mongodb-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-mongodb-reference.html#connection-properties"
+  to = "/software/latest/dataflow-mongodb-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-mysql-reference.html#sync-properties"
+  to = "/software/latest/dataflow-mysql-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-mysql-reference.html#connection-properties"
+  to = "/software/latest/dataflow-mysql-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-memsql-reference.html#sync-properties"
+  to = "/software/latest/dataflow-memsql-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-memsql-reference.html#connection-properties"
+  to = "/software/latest/dataflow-memsql-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-netezza-reference.html#sync-properties"
+  to = "/software/latest/dataflow-netezza-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-netezza-reference.html#connection-properties"
+  to = "/software/latest/dataflow-netezza-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-oracle-reference.html#sync-properties"
+  to = "/software/latest/dataflow-oracle-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-oracle-reference.html#connection-properties"
+  to = "/software/latest/dataflow-oracle-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-postgresql-reference.html#sync-properties"
+  to = "/software/latest/dataflow-postgresql-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-postgresql-reference.html#connection-properties"
+  to = "/software/latest/dataflow-postgresql-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-presto-reference.html#sync-properties"
+  to = "/software/latest/dataflow-presto-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-presto-reference.html#connection-properties"
+  to = "/software/latest/dataflow-presto-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sas-reference.html#sync-properties"
+  to = "/software/latest/dataflow-sas-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sas-reference.html#connection-properties"
+  to = "/software/latest/dataflow-sas-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sap-adaptive-server-enterprise-reference.html#sync-properties"
+  to = "/software/latest/dataflow-sap-adaptive-server-enterprise-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sap-adaptive-server-enterprise-reference.html#connection-properties"
+  to = "/software/latest/dataflow-sap-adaptive-server-enterprise-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sap-hana-reference.html#sync-properties"
+  to = "/software/latest/dataflow-sap-hana-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sap-hana-reference.html#connection-properties"
+  to = "/software/latest/dataflow-sap-hana-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sap-sql-anywhere-reference.html#sync-properties"
+  to = "/software/latest/dataflow-sap-sql-anywhere-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sap-sql-anywhere-reference.html#connection-properties"
+  to = "/software/latest/dataflow-sap-sql-anywhere-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sql-server-reference.html#sync-properties"
+  to = "/software/latest/dataflow-sql-server-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-sql-server-reference.html#connection-properties"
+  to = "/software/latest/dataflow-sql-server-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-snowflake-reference.html#sync-properties"
+  to = "/software/latest/dataflow-snowflake-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-snowflake-reference.html#connection-properties"
+  to = "/software/latest/dataflow-snowflake-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-splice-machine-reference.html#sync-properties"
+  to = "/software/latest/dataflow-splice-machine-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-splice-machine-reference.html#connection-properties"
+  to = "/software/latest/dataflow-splice-machine-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-teradata-reference.html#sync-properties"
+  to = "/software/latest/dataflow-teradata-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-teradata-reference.html#connection-properties"
+  to = "/software/latest/dataflow-teradata-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-amazon-s3-reference.html#sync-properties"
+  to = "/software/latest/dataflow-amazon-s3-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-amazon-s3-reference.html#connection-properties"
+  to = "/software/latest/dataflow-amazon-s3-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-apache-parquet-reference.html#sync-properties"
+  to = "/software/latest/dataflow-apache-parquet-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-apache-parquet-reference.html#connection-properties"
+  to = "/software/latest/dataflow-apache-parquet-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-azure-blob-storage-reference.html#sync-properties"
+  to = "/software/latest/dataflow-azure-blob-storage-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-azure-blob-storage-reference.html#connection-properties"
+  to = "/software/latest/dataflow-azure-blob-storage-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-files-reference.html#sync-properties"
+  to = "/software/latest/dataflow-files-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-files-reference.html#connection-properties"
+  to = "/software/latest/dataflow-files-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-google-cloud-storage-reference.html#sync-properties"
+  to = "/software/latest/dataflow-google-cloud-storage-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-google-cloud-storage-reference.html#connection-properties"
+  to = "/software/latest/dataflow-google-cloud-storage-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-hdfs-reference.html#sync-properties"
+  to = "/software/latest/dataflow-hdfs-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-hdfs-reference.html#connection-properties"
+  to = "/software/latest/dataflow-hdfs-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-splunk-reference.html#sync-properties"
+  to = "/software/latest/dataflow-splunk-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-splunk-reference.html#connection-properties"
+  to = "/software/latest/dataflow-splunk-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-salesforce-reference.html#sync-properties"
+  to = "/software/latest/dataflow-salesforce-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-salesforce-reference.html#connection-properties"
+  to = "/software/latest/dataflow-salesforce-reference.html#connection-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-rest-api-reference.html#sync-properties"
+  to = "/software/latest/dataflow-rest-api-reference.html#sync-properties"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/data-integrate/dataflow/dataflow-rest-api-reference.html#connection-properties"
+  to = "/software/latest/dataflow-rest-api-reference.html#connection-properties"
+  status = 301
+  force = true
