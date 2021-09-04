@@ -28,6 +28,11 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
+  from = "/7.1.0.aug.sw/data-integrate/embrace/undefined"
+  to = "/software/latest/connections-databricks-reference.html"
+  status = 301
+  force = true
+[[redirects]]
   from = "/7.1/reference/keywords.html"
   to = "/software/latest/keywords.html"
   status = 301
