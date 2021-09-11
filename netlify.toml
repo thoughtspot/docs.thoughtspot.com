@@ -8,6 +8,46 @@ ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
 
 [[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-snowflake-best.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-snowflake-best.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-snowflake-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-snowflake-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-redshift-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-redshift-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-gbq-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-gbq-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-synapse-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-synapse-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-teradata-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-teradata-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-hana-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-hana-reference.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-adw-reference.html*"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace-adw-reference.html"
+  status = 301
+  force = true
+[[redirects]]
   from = "/7.1.0.aug.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
