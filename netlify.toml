@@ -1728,7 +1728,1155 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/6.0/:splat"
   status = 301
   force = true
-# directory-level 6.0 redirects end    
+# directory-level 6.0 redirects end
+# directory-level 5.0 redirects start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/admin-portal/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/architecture/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/backup-restore/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/data-modeling/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/data-security/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/loading/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/manage-jobs/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/misc/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/mobile/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/poc-features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/scriptability/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/setup/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/system-admin/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/troubleshooting/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/ts-cloud/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/users-groups/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/admin/worksheets/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/advanced-search/formulas/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/custom-branding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/data-api/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/embedding-viz/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/JSAPI/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/runtime-filters/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/app-integrate/SAML/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/amazon-linux-2/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/aws/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/azure/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/gcp/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/hardware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/rhel/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/vmware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/appliance/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/complex-search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/data-integrate/clients*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/data-integrate/dataflow*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/data-integrate/embrace*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/data-integrate/introduction*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/data-integrate/reference*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/data-integrate/troubleshooting*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/disaster-recovery/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/data-view/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/help-center/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/onboarding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/pinboards/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/r-scripts/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/end-user/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/faq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/reference/practice*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/release/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.0/spotiq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+# directory-level 5.0 redirects end
+# directory-level 5.1 redirects start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/admin-portal/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/architecture/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/backup-restore/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/data-modeling/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/data-security/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/loading/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/manage-jobs/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/misc/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/mobile/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/poc-features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/scriptability/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/setup/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/system-admin/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/troubleshooting/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/ts-cloud/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/users-groups/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/admin/worksheets/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/advanced-search/formulas/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/custom-branding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/data-api/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/embedding-viz/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/JSAPI/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/runtime-filters/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/app-integrate/SAML/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/amazon-linux-2/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/aws/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/azure/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/gcp/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/hardware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/rhel/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/vmware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/appliance/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/complex-search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/data-integrate/clients*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/data-integrate/dataflow*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/data-integrate/embrace*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/data-integrate/introduction*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/data-integrate/reference*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/data-integrate/troubleshooting*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/disaster-recovery/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/data-view/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/help-center/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/onboarding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/pinboards/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/r-scripts/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/end-user/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/faq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/reference/practice*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/release/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.1/spotiq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+# directory-level 5.1 redirects end
+# directory-level 5.2 redirects start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/admin-portal/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/architecture/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/backup-restore/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/data-modeling/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/data-security/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/loading/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/manage-jobs/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/misc/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/mobile/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/poc-features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/scriptability/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/setup/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/system-admin/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/troubleshooting/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/ts-cloud/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/users-groups/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/admin/worksheets/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/advanced-search/formulas/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/custom-branding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/data-api/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/embedding-viz/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/JSAPI/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/runtime-filters/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/app-integrate/SAML/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/amazon-linux-2/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/aws/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/azure/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/gcp/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/hardware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/rhel/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/vmware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/appliance/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/complex-search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/data-integrate/clients*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/data-integrate/dataflow*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/data-integrate/embrace*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/data-integrate/introduction*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/data-integrate/reference*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/data-integrate/troubleshooting*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/disaster-recovery/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/data-view/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/help-center/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/onboarding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/pinboards/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/r-scripts/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/end-user/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/faq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/reference/practice*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/release/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.2/spotiq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+# directory-level 5.2 redirects end
+# directory-level 5.3 redirects start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/admin-portal/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/architecture/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/backup-restore/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/data-modeling/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/data-security/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/loading/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/manage-jobs/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/misc/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/mobile/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/poc-features/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/scriptability/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/setup/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/system-admin/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/troubleshooting/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/ts-cloud/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/users-groups/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/admin/worksheets/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/advanced-search/formulas/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/custom-branding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/data-api/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/embedding-viz/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/JSAPI/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/runtime-filters/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/app-integrate/SAML/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/amazon-linux-2/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/aws/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/azure/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/gcp/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/hardware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/rhel/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/vmware/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/appliance/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/complex-search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/data-integrate/clients*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/data-integrate/dataflow*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/data-integrate/embrace*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/data-integrate/introduction*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/data-integrate/reference*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/data-integrate/troubleshooting*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/disaster-recovery/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/data-view/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/help-center/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/introduction/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/onboarding/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/pinboards/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/r-scripts/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/search/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/end-user/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/faq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/reference/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/reference/practice*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/release/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/5.3/spotiq/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
+# directory-level 5.3 redirects end
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/complex-search/change-the-view.html*"
   to = "https://docs.thoughtspot.com/software/latest/chart-table-change.html"
