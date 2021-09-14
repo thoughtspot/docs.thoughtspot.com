@@ -11,7 +11,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 [[redirects]]
   from = "https://docs.thoughtspot.com/visual-embed-sdk/release/en/"
   to = "https://developers.thoughtspot.com/docs"
-  status = 200
+  status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/visual-embed-sdk/7.1/en/"
