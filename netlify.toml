@@ -7,7 +7,15 @@ ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 [build]
 command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
 
-# developer docs site redirects
+# redirect for product connectivity check start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/blanknetworkconnect.png"
+  to = "https://docs.thoughtspot.com/software/latest/_images/blanknetworkconnect.png"
+  status = 301
+  force = true
+# redirect for product connectivity check end
+
+# developer docs site redirects start
 [[redirects]]
   from = "https://docs.thoughtspot.com/visual-embed-sdk/release/en/"
   to = "https://developers.thoughtspot.com/docs"
@@ -18,7 +26,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://thoughtspot.github.io/visual-embed-sdk/7.1/en/"
   status = 200
   force = true
-# directory-level latest redirects latest start
+# directory-level latest redirects latest end
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/admin-portal/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
