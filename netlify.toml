@@ -9,8 +9,8 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 # developer docs site redirect
 [[redirects]]
-  from = "https://docs.thoughtspot.com/visual-embed-sdk/7.1/en"
-  to = "https://thoughtspot.github.io/visual-embed-sdk/7.1/en/ "
+  from = "https://docs.thoughtspot.com/visual-embed-sdk/7.1/en/"
+  to = "https://thoughtspot.github.io/visual-embed-sdk/7.1/en/"
   status = 200
   force = true
 # directory-level latest redirects latest start
