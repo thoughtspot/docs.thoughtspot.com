@@ -7,6 +7,13 @@ ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 [build]
 command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
 
+# redirect for netlify address to real address
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/latest/"
+  to = "https://docs.thoughtspot.com/software/latest/"
+  status = 301
+  force = true
+
 # redirect for product connectivity check start
 [[redirects]]
   from = "https://docs.thoughtspot.com/blanknetworkconnect.png"
