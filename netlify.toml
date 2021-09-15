@@ -4146,8 +4146,8 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.0/admin/backup-restore/take-backup.html"
-  to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
+  from = "/take-backup.html"
+  to = "/backup-manual.html"
   status = 301
   force = true
 # renamed files latest redirects end
