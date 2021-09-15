@@ -51,8 +51,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/latest/_images/blanknetworkconnect.png"
   status = 301
   force = true
-# redirect for product connectivity check end
-
+# global redirect from latest on old site to 7.0 on new site
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/*"
+  to = "https://docs.thoughtspot.com/software/7.0/*"
+  status = 301
+  force = true
 # developer docs site redirects start
 [[redirects]]
   from = "https://docs.thoughtspot.com/visual-embed-sdk/release/en/"
@@ -4096,62 +4100,57 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/loading/view-your-data-profile.html"
+  from = "https://docs.thoughtspot.com/software/latest/view-your-data-profile.html"
   to = "https://docs.thoughtspot.com/software/7.0/data-profile.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/end-user/data-view/sharing-for-end-users.html"
+  from = "https://docs.thoughtspot.com/software/latest/sharing-for-end-users.html"
   to = "https://docs.thoughtspot.com/software/7.0/sharing.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/end-user/pinboards/request-access.html"
+  from = "https://docs.thoughtspot.com/software/latest/request-access.html"
   to = "https://docs.thoughtspot.com/software/7.0/share-request-access.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/end-user/pinboards/unshare.html"
+  from = "https://docs.thoughtspot.com/software/latest/unshare.html"
   to = "https://docs.thoughtspot.com/software/7.0/share-revoke-access.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/end-user/introduction/about-user.html"
+  from = "https://docs.thoughtspot.com/software/latest/about-user.html"
   to = "https://docs.thoughtspot.com/software/7.0/user-profile.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/setup/intro.html"
+  from = "https://docs.thoughtspot.com/software/latest/intro.html"
   to = "https://docs.thoughtspot.com/software/7.0/installation.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/setup/set-your-thoughtspot-locale.html"
+  from = "https://docs.thoughtspot.com/software/latest/set-your-thoughtspot-locale.html"
   to = "https://docs.thoughtspot.com/software/7.0/locale-set.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/setup/test-network.html"
+  from = "https://docs.thoughtspot.com/software/latest/test-network.html"
   to = "https://docs.thoughtspot.com/software/7.0/network-set.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/setup/set-your-thoughtspot-locale.html"
+  from = "https://docs.thoughtspot.com/software/7.0/set-your-thoughtspot-locale.html"
   to = "https://docs.thoughtspot.com/software/7.0/locale-set.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/setup/test-network.html"
+  from = "https://docs.thoughtspot.com/software/7.0/test-network.html"
   to = "https://docs.thoughtspot.com/software/7.0/network-set.html"
   status = 301
   force = true
 [[redirects]]
-  from = "https://docs.thoughtspot.com/latest/admin/backup-restore/take-backup.html"
-  to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://docs.thoughtspot.com/software/latest/take-backup.html"
+  from = "https://docs.thoughtspot.com/software/7.0/take-backup.html"
   to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
   status = 301
   force = true
