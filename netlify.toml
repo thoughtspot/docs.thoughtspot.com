@@ -3599,3 +3599,245 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "/software/latest/dataflow-rest-api-reference.html#connection-properties"
   status = 301
   force = true
+# renamed files latest redirects start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/worksheet/edit-worksheet.html"
+  to = "https://docs.thoughtspot.com/software/latest/worksheet-edit.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-column-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-column.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-column-charts.html#stacked-columns"
+  to = "https://docs.thoughtspot.com/software/latest/chart-column-stacked.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-bar-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-bar.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-bar-charts.html#stacked-bar-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-bar-stacked.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-line-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-line.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/pie-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-pie.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/area-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-area.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/area-charts.html#stacked-area-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-area-stacked.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-scatter-chart.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-scatter.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-bubble-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-bubble.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-pareto-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-pareto.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-waterfall-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-waterfall.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-treemap-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-treemap.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/line-column-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-line-column.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/line-column-charts.html#line-stacked-column-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-line-column-stacked.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-funnel-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-funnel.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-geo-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-geo.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-geo-charts.html#area-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-geo-area.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-geo-charts.html#geo-bubble-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-geo-bubble.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-geo-charts.html#heatmap-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-heatmap.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/about-pivoting-a-table.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-pivot-table.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-sankey-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-sankey.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-radar-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-radar.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/candlestick-charts.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-candlestick.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/about-geo-charts.html#heatmap-charts"
+  to = "https://docs.thoughtspot.com/software/latest/chart-heatmap.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/add-formula-to-search.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/how-to-add-formula.html"
+  to = "https://docs.thoughtspot.com/software/latest/formula-add.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/worksheets/create-formula.html"
+  to = "https://docs.thoughtspot.com/software/latest/worksheet-formula.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/backup-restore/choose-strategy.html"
+  to = "https://docs.thoughtspot.com/software/latest/backup-strategy.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/help-center/what-you-can-find-in-the-help-center.html"
+  to = "https://docs.thoughtspot.com/software/latest/help-center.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/loading/delete-data-source-UX.html"
+  to = "https://docs.thoughtspot.com/software/latest/delete-data-source.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/search/change-the-chart.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-change.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/change-the-view.html"
+  to = "https://docs.thoughtspot.com/software/latest/chart-table-change.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/aggregation-formulas.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-aggregation.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/about-moving-formulas.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-moving.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/about-cumulative-formulas.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-cumulative.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/setup/NAS-mount.html"
+  to = "https://docs.thoughtspot.com/software/latest/nas-mount.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/aggregation-flexible.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-aggregation-flexible.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/about-pinned-measures.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-aggregation-group.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/filtered-agg-forms.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-aggregation-filtered.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/complex-search/conversion-formulas.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-conversion.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/advanced-search/formulas/date-formulas.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-date.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/advanced-search/formulas/percent-calculations.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-simple-operations.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/advanced-search/formulas/percent-calculations.html#calculate_percentages"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-percent.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/advanced-search/formulas/conditional-sum.html"
+  to = "https://docs.thoughtspot.com/software/latest/formulas-logical-operations.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/users-groups/add-user.html"
+  to = "https://docs.thoughtspot.com/software/latest/user-management.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/users-groups/add-group.html"
+  to = "https://docs.thoughtspot.com/software/latest/group-management.html"
+  status = 301
+  force = true
+# renamed files latest redirects end
