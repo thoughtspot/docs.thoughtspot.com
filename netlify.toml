@@ -54,12 +54,27 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # global redirect from latest on old site to 7.0 on new site
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/*"
-  to = "https://docs.thoughtspot.com/software/7.0/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/6.3.1.CU4/*"
-  to = "https://docs.thoughtspot.com/software/6.3/*"
+  to = "https://docs.thoughtspot.com/software/6.3/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/6.3.1.CU1/*"
+  to = "https://docs.thoughtspot.com/software/6.3/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/6.3.0.CU1/*"
+  to = "https://docs.thoughtspot.com/software/6.3/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/6.3.0/*"
+  to = "https://docs.thoughtspot.com/software/6.3/:splat"
   status = 301
   force = true
 # developer docs site redirects start
@@ -4307,6 +4322,56 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.0/select-chart-color-palettes.html"
   to = "https://docs.thoughtspot.com/software/7.0/customize-color-palettes.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/choose-background-color.html"
+  to = "https://docs.thoughtspot.com/software/7.0/customize-background.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-chart-and-table-visualization-fonts.html"
+  to = "https://docs.thoughtspot.com/software/7.0/customize-fonts.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/upload-application-logos.html"
+  to = "https://docs.thoughtspot.com/software/7.0/customize-logo.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/perform-style-customization.html"
+  to = "https://docs.thoughtspot.com/software/7.0/customization.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/create-schema-with-script.html"
+  to = "https://docs.thoughtspot.com/software/7.0/schema-script.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/create-schema-example.html"
+  to = "https://docs.thoughtspot.com/software/7.0/schema-examples.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/upload-sql-script.html"
+  to = "https://docs.thoughtspot.com/software/7.0/schema-upload.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/load-with-script.html"
+  to = "https://docs.thoughtspot.com/software/7.0/tsload-script.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/load-with-tsload.html"
+  to = "https://docs.thoughtspot.com/software/7.0/tsload-connector.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/active-directory-based-access.html"
+  to = "https://docs.thoughtspot.com/software/7.0/active-directory-based-access.html"
   status = 301
   force = true
 # renamed files latest redirects end
