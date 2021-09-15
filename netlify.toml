@@ -4371,7 +4371,602 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.0/active-directory-based-access.html"
-  to = "https://docs.thoughtspot.com/software/7.0/active-directory-based-access.html"
+  to = "https://docs.thoughtspot.com/software/7.0/active-directory.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/load-from-web-browser.html"
+  to = "https://docs.thoughtspot.com/software/7.0/load-csv.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/sign-up.html"
+  to = "https://docs.thoughtspot.com/software/7.0/user-sign-up.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/sharing-security-overview.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-security.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/logins.html"
+  to = "https://docs.thoughtspot.com/software/7.0/admin-sign-in.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/row-security.html"
+  to = "https://docs.thoughtspot.com/software/7.0/security-rls.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/row-level-security.html"
+  to = "https://docs.thoughtspot.com/software/7.0/security-rls-concept.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-rls.html"
+  to = "https://docs.thoughtspot.com/software/7.0/security-rls-implement.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/spotiq-admin.html"
+  to = "https://docs.thoughtspot.com/software/7.0/security-spotiq.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/take-backup.html"
+  to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/how-to-create-a-schedule.html"
+  to = "https://docs.thoughtspot.com/software/7.0/backup-schedule.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/overview-snapshot.html"
+  to = "https://docs.thoughtspot.com/software/7.0/snapshots.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/edit-model-file.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-modeling-edit.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/create-ws-filter.html"
+  to = "https://docs.thoughtspot.com/software/7.0/worksheet-filter.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/mod-ws-internal-joins.html"
+  to = "https://docs.thoughtspot.com/software/7.0/join-worksheet-edit.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/delete-worksheet.html"
+  to = "https://docs.thoughtspot.com/software/7.0/worksheet-delete.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/about-query-on-query.html"
+  to = "https://docs.thoughtspot.com/software/7.0/views.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/do-query-on-query.html"
+  to = "https://docs.thoughtspot.com/software/7.0/views-searches.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/create-aggregated-worksheet.html"
+  to = "https://docs.thoughtspot.com/software/7.0/searches-views.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/more-example-scenarios.html"
+  to = "https://docs.thoughtspot.com/software/7.0/views-examples.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/materialized-views.html"
+  to = "https://docs.thoughtspot.com/software/7.0/views-materialized.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/materialize-a-view.html"
+  to = "https://docs.thoughtspot.com/software/7.0/view-materialize.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/dematerialize-a-view.html"
+  to = "https://docs.thoughtspot.com/software/7.0/view-dematerialize.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/refresh-view.html"
+  to = "https://docs.thoughtspot.com/software/7.0/view-refresh.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/data.html"
+  to = "https://docs.thoughtspot.com/software/7.0/system-data.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/worksheets.html"
+  to = "https://docs.thoughtspot.com/software/7.0/system-worksheet.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/monitor-pinboards.html"
+  to = "https://docs.thoughtspot.com/software/7.0/system-pinboards.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/alerts-events.html"
+  to = "https://docs.thoughtspot.com/software/7.0/system-alerts-events.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/troubleshooting-intro.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/get-logs.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-logs.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/upload-logs-egnyte.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-logs-share.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/check-connectivity.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-connectivity.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-timezone.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-timezone.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/certificate-warning.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-certificate.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/char-encoding.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-char-encoding.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/clear-browser-cache.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-browser-cache.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/formula-date-problem.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-formulas.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/data-loading-too-slowly.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-load.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/search-too-many-blanks.html"
+  to = "https://docs.thoughtspot.com/software/7.0/troubleshooting-blanks.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/use-mobile.html"
+  to = "https://docs.thoughtspot.com/software/7.0/mobile.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/install-mobile.html"
+  to = "https://docs.thoughtspot.com/software/7.0/mobile-install.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/deploy-mobile.html"
+  to = "https://docs.thoughtspot.com/software/7.0/mobile-deploy.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/faq-mobile.html"
+  to = "https://docs.thoughtspot.com/software/7.0/mobile-faq.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/introduction.html"
+  to = "https://docs.thoughtspot.com/software/7.0/embedding-overview.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/integrate-ADFS.html"
+  to = "https://docs.thoughtspot.com/software/7.0/active-directory-federated-services.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/calling-rest-api.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-api-calling.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/response-pagination.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-api-pagination.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/use-data-api-read.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-api-get.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/direct-search-to-embed.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-api-search.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/push-data-to-external-app.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-api-push.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/al2-overview.html"
+  to = "https://docs.thoughtspot.com/software/7.0/al2.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/inthebox.html"
+  to = "https://docs.thoughtspot.com/software/7.0/hardware-appliance.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/smc-cluster-install.html"
+  to = "https://docs.thoughtspot.com/software/7.0/smc.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/prerequisites-smc.html"
+  to = "https://docs.thoughtspot.com/software/7.0/smc-prerequisites.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/prerequisites-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-prerequisites.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/date-formats-for-loading.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-load-date-formats.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/delete-a-visualization.html"
+  to = "https://docs.thoughtspot.com/software/7.0/visualization-delete.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/configure-nodes-smc.html"
+  to = "https://docs.thoughtspot.com/software/7.0/smc-configure-nodes.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/configure-nodes-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-configure-nodes.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/configure-management-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-configure-management.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/configure-record-search.html"
+  to = "https://docs.thoughtspot.com/software/7.0/sysadmin-search-replay.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/configure-backup.html"
+  to = "https://docs.thoughtspot.com/software/7.0/backup-configure-schedule.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/connect-appliance-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-connect-appliance.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/connect-appliance-smc.html"
+  to = "https://docs.thoughtspot.com/software/7.0/smc-connect-appliance.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/installing-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-installing.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/hardware-requirements-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-hardware-requirements.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/hardware-requirements-smc.html"
+  to = "https://docs.thoughtspot.com/software/7.0/smc-hardware-requirements.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/install-cluster-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell-cluster-install.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/hardware-and-deployment.html"
+  to = "https://docs.thoughtspot.com/software/7.0/hardware-deployment.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/installing-dell.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dell.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/cloud.html"
+  to = "https://docs.thoughtspot.com/software/7.0/deploying-cloud.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/installing-aws.html"
+  to = "https://docs.thoughtspot.com/software/7.0/aws-installing.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/installing-gcp.html"
+  to = "https://docs.thoughtspot.com/software/7.0/gcp-installing.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/vmware-intro.html"
+  to = "https://docs.thoughtspot.com/software/7.0/vmware.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/installing-vmware.html"
+  to = "https://docs.thoughtspot.com/software/7.0/vmware-installing.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/installing-azure.html"
+  to = "https://docs.thoughtspot.com/software/7.0/azure-installing.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/embrace-intro.html"
+  to = "https://docs.thoughtspot.com/software/7.0/embrace.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/introduction-data-integration.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-integration.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/how-to-improve-throughput-of-the-load.html"
+  to = "https://docs.thoughtspot.com/software/7.0/throughput.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/JDBC-logging.html"
+  to = "https://docs.thoughtspot.com/software/7.0/jdbc-logging.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-up-the-jdbc-driver-for-pentaho.html"
+  to = "https://docs.thoughtspot.com/software/7.0/jdbc-pentaho.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/troubleshooting-intro.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-integration-troubleshooting.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/odbc-commands.html"
+  to = "https://docs.thoughtspot.com/software/7.0/odbc-jdbc-sql.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/simba-settings.html"
+  to = "https://docs.thoughtspot.com/software/7.0/odbc-jdbc-configuration.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/configure-SAML-with-tscli.html"
+  to = "https://docs.thoughtspot.com/software/7.0/saml.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-up-DR-config.html"
+  to = "https://docs.thoughtspot.com/software/7.0/dr-config.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/about-navigating-thoughtspot.html"
+  to = "https://docs.thoughtspot.com/software/7.0/navigating-thoughtspot.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/check-dependencies-tql.html"
+  to = "https://docs.thoughtspot.com/software/7.0/tql-table.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/delete-data-source-UX.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-source-delete.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/download-your-search.html"
+  to = "https://docs.thoughtspot.com/software/7.0/search-download.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/drag-and-drop.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-column-configure.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/drill-down.html"
+  to = "https://docs.thoughtspot.com/software/7.0/search-drill-down.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/encryption-of-data.html"
+  to = "https://docs.thoughtspot.com/software/7.0/security-data-encryption.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/hide-and-show-values.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-column-visibility.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/high-cardinality.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-high-cardinality.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/show-data-labels.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-data-labels.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/show-data-markers.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-data-markers.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/regression-line.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-regression-line.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/gridlines.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-gridlines.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/lock-chart-type.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-lock-type.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-the-y-axis-scale.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-y-axis.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/reorder-values-on-the-x-axis.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-x-axis.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/column-renaming.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-column-axis-rename.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/zoom-into-a-chart.html"
+  to = "https://docs.thoughtspot.com/software/7.0/chart-zoom.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/use-jdbc-driver.html"
+  to = "https://docs.thoughtspot.com/software/7.0/jdbc-driver-use.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/upgrade-a-cluster.html"
+  to = "https://docs.thoughtspot.com/software/7.0/sysadmin-cluster-upgrade.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/replay-search.html"
+  to = "https://docs.thoughtspot.com/software/7.0/search-replay.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/install-odbc-linux.html"
+  to = "https://docs.thoughtspot.com/software/7.0/odbc-linux-install.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/JDBC-logging.html"
+  to = "https://docs.thoughtspot.com/software/7.0/jdbc-logging.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/LDAP-config-AD.html"
+  to = "https://docs.thoughtspot.com/software/7.0/ldap-config-ad.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/intro-onboarding.html"
+  to = "https://docs.thoughtspot.com/software/7.0/onboarding.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/intro.html"
+  to = "https://docs.thoughtspot.com/software/7.0/practice.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/visualization-delete.html"
+  to = "https://docs.thoughtspot.com/software/7.0/pinboard-visualization-delete.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/install-odbc-windows.html"
+  to = "https://docs.thoughtspot.com/software/7.0/odbc-windows-install.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/install-secure-monitor-sw.html"
+  to = "https://docs.thoughtspot.com/software/7.0/secure-monitor-sw-install.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/progressive-joins.html"
+  to = "https://docs.thoughtspot.com/software/7.0/worksheet-progressive-joins.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/pinboarddata.html"
+  to = "https://docs.thoughtspot.com/software/7.0/pinboard-data-api.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/request-access-pinboard.html"
+  to = "https://docs.thoughtspot.com/software/7.0/pinboard-request-access.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/set-up-the-odbc-driver-using-ssis.html"
+  to = "https://docs.thoughtspot.com/software/7.0/odbc-driver-ssis.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.0/generate-flat-file.html"
+  to = "https://docs.thoughtspot.com/software/7.0/load-csv.adoc"
   status = 301
   force = true
 # renamed files latest redirects end
