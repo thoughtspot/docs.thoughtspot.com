@@ -4065,4 +4065,89 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/7.0/spotiq-best.html"
   status = 301
   force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/spotiq/comparative-analysis.html"
+  to = "https://docs.thoughtspot.com/software/7.0/spotiq-comparative.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/spotiq/customization.html"
+  to = "https://docs.thoughtspot.com/software/7.0/spotiq-custom.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/spotiq/adv-customize-withr.html"
+  to = "https://docs.thoughtspot.com/software/7.0/spotiq-r.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/spotiq/insight-feedback.html"
+  to = "https://docs.thoughtspot.com/software/7.0/spotiq-feedback.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/data-view/data-intro-end-user.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-sources.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/loading/datatypes.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-types.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/loading/view-your-data-profile.html"
+  to = "https://docs.thoughtspot.com/software/7.0/data-profile.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/data-view/sharing-for-end-users.html"
+  to = "https://docs.thoughtspot.com/software/7.0/sharing.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/pinboards/request-access.html"
+  to = "https://docs.thoughtspot.com/software/7.0/share-request-access.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/pinboards/unshare.html"
+  to = "https://docs.thoughtspot.com/software/7.0/share-revoke-access.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/end-user/introduction/about-user.html"
+  to = "https://docs.thoughtspot.com/software/7.0/user-profile.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/setup/intro.html"
+  to = "https://docs.thoughtspot.com/software/7.0/installation.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/setup/set-your-thoughtspot-locale.html"
+  to = "https://docs.thoughtspot.com/software/7.0/locale-set.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/setup/test-network.html"
+  to = "https://docs.thoughtspot.com/software/7.0/network-set.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/setup/set-your-thoughtspot-locale.html"
+  to = "https://docs.thoughtspot.com/software/7.0/locale-set.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/admin/setup/test-network.html"
+  to = "https://docs.thoughtspot.com/software/7.0/network-set.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0/admin/backup-restore/take-backup.html"
+  to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
+  status = 301
+  force = true
 # renamed files latest redirects end
