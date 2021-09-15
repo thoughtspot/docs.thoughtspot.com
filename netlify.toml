@@ -7,6 +7,37 @@ ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 [build]
 command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
 
+# redirect any netlify address url to real address
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/latest/*"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/7.0/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/6.3/*"
+  to = "https://docs.thoughtspot.com/software/6.3/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/6.2/*"
+  to = "https://docs.thoughtspot.com/software/6.2/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/6.1/*"
+  to = "https://docs.thoughtspot.com/software/6.1/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs-thoughtspot-com.netlify.app/software/6.0/*"
+  to = "https://docs.thoughtspot.com/software/6.0/:splat"
+  status = 301
+  force = true
 # redirect for netlify address to real address
 [[redirects]]
   from = "https://docs-thoughtspot-com.netlify.app/software/latest/"
