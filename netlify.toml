@@ -6320,6 +6320,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # latest brute force redirects
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/release/notes.html"
-  to = "https://docs.thoughtspot.com/software/7.0/notes.hml"
+  to = "https://docs.thoughtspot.com/software/7.0/notes.html"
   status = 301
   force = true
