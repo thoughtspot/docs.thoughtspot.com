@@ -4171,7 +4171,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.0/take-backup.html"
-  to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
+    to = "https://docs.thoughtspot.com/software/7.0/backup-manual.html"
   status = 301
   force = true
 [[redirects]]
@@ -6313,7 +6313,13 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/6.3/generate-flat-file.html"
-  to = "https://docs.thoughtspot.com/software/6.3/load-csv.adoc"
+  to = "https://docs.thoughtspot.com/software/6.3/load-csv.html"
   status = 301
   force = true
 # renamed files 6.3 redirects end
+# latest brute force redirects
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/release/notes.html"
+  to = "https://docs.thoughtspot.com/software/7.0/notes.html"
+  status = 301
+  force = true
