@@ -4156,17 +4156,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.0/test-network.html"
-  to = "https://docs.thoughtspot.com/software/7.0/network-set.html"
+  to = "https://docs.thoughtspot.com/software/7.0/network-test.html"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.0/set-your-thoughtspot-locale.html"
   to = "https://docs.thoughtspot.com/software/7.0/locale-set.html"
-  status = 301
-  force = true
-[[redirects]]
-  from = "https://docs.thoughtspot.com/software/7.0/test-network.html"
-  to = "https://docs.thoughtspot.com/software/7.0/network-set.html"
   status = 301
   force = true
 [[redirects]]
