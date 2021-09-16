@@ -52,11 +52,11 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 # global redirect from latest on old site to 7.0 on new site
-# [[redirects]]
-#  from = "https://docs.thoughtspot.com/latest/*"
-#  to = "https://docs.thoughtspot.com/software/7.0/:splat"
-#  status = 301
-#  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/6.3.1.CU4/*"
   to = "https://docs.thoughtspot.com/software/6.3/:splat"
@@ -6320,6 +6320,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # latest brute force redirects
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/release/notes.html"
-  to = "https://docs.thoughtspot.com/software/7.0/notes.html"
+  to = "https://docs.thoughtspot.com/software/7.0/notes.hml"
   status = 301
   force = true
