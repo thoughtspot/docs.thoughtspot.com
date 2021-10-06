@@ -28,6 +28,7 @@ asciidoc:
     software: true
     cloud: false
     tabs: tabs
+    pinboard: liveboard
   extensions:
   - ./lib/asciidoctor-performance-patch.js
   - "@djencks/asciidoctor-tabset-block"
