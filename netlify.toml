@@ -452,6 +452,16 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
+  from = "https://docs.thoughtspot.com/7.1.0/data-integrate/embrace/*"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/latest/data-integrate/embrace/embrace-snowflake-reference.html"
+  to = "https://docs.thoughtspot.com/software/latest/connections-snowflake-reference.html"
+  status = 301
+  force = true
+[[redirects]]
   from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/setup/LDAP-config-AD.html"
   to = "https://docs.thoughtspot.com/software/7.0/ldap-config-ad.html"
   status = 301
