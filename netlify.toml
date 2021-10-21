@@ -528,7 +528,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.0/admin/backup-restore/overview-snapshot.html"
-  to = "https://docs.thoughtspot.com/software/7.0/overview-snapshot.html"
+  to = "https://docs.thoughtspot.com/software/7.0/snapshots.html"
   status = 301
   force = true
 [[redirects]]
