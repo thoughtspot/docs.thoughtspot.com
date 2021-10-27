@@ -3129,12 +3129,17 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
-  from = "/7.1/release/downloads.html"
-  to = "/software/latest/downloads.html"
+  from = "https://docs.thoughtspot.com/software/7.1/release/downloads.html"
+  to = "https://docs.thoughtspot.com/software/latest/downloads.html"
   status = 301
   force = true
 [[redirects]]
-  from = "/7.1/release/notes.html"
+  from = "https://docs.thoughtspot.com/software/6.3/release/downloads.html"
+  to = "https://docs.thoughtspot.com/software/6.3/downloads.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.1/release/notes.html"
   to = "/software/latest/notes.html"
   status = 301
   force = true
@@ -3150,7 +3155,17 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "/6.2/reference/keywords.html"
-  to = "/software/latest/keywords.html"
+  to = "/software/6.2/keywords.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/6.3/reference/keywords.html"
+  to = "/software/6.3/keywords.html"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/6.3/reference/keywords.html"
+  to = "https://docs.thoughtspot.com/software/6.3/keywords.html"
   status = 301
   force = true
 [[redirects]]
