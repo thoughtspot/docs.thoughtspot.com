@@ -3159,6 +3159,11 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
+  from = "/6.3/reference/keywords.html"
+  to = "/software/6.3/keywords.html"
+  status = 301
+  force = true
+[[redirects]]
   from = "https://docs.thoughtspot.com/software/6.3/reference/keywords.html"
   to = "https://docs.thoughtspot.com/software/6.3/keywords.html"
   status = 301
