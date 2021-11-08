@@ -122,6 +122,63 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/7.0/:splat"
   status = 301
   force = true
+# 7.0.1.cu1 redirects start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/release/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/reference/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/setup*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/backup-restore*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/users-groups*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/scriptability*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/ts-cloud*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/worksheets*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/admin/loading*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/data-integrate/dataflow*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.CU1/data-integrate/embrace*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+# 7.0.1.cu1 redirects end
 [[redirects]]
   from = "https://docs.thoughtspot.com/6.3.1.CU4/*"
   to = "https://docs.thoughtspot.com/software/6.3/:splat"
