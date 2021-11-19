@@ -189,6 +189,20 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 # 7.0.1.cu1 redirects end
+# 7.0.1.jun.sw start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.1.jun.sw/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+# 7.0.1.jun.sw end
+# 7.0.0.mar.sw start
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.0.0.mar.sw/*"
+  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  status = 301
+  force = true
+# 7.0.0.mar.sw end
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/6.3/admin/worksheets/mod-ws-internal-joins.html"
   to = "https://docs.thoughtspot.com/software/6.3/join-worksheet-edit.html"
