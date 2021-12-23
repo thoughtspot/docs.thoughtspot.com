@@ -35,7 +35,7 @@ asciidoc:
   - "@djencks/asciidoctor-tabset-block"
 output:
   clean: true
-  dir: build/
+  dir: build/software
 runtime:
   fetch: true
   log:
