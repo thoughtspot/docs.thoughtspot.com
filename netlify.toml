@@ -10,7 +10,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self';"
+    Content-Security-Policy = "default-src *;"
 # redirect any netlify address url to real address
 [[redirects]]
   from = "https://docs-thoughtspot-com.netlify.app/software/latest/*"
