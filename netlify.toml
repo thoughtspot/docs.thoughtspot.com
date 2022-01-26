@@ -12,6 +12,26 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   [headers.values]
     Content-Security-Policy = "default-src * 'unsafe-eval' 'unsafe-inline' data: filesystem: about: blob:;"
 # redirect any netlify address url to real address
+# redirect for home of sw and cloud docs
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.1.1/third-party"
+  to = "https://docs.thoughtspot.com/software/latest/third-party"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software"
+  to = "https://docs.thoughtspot.com/software/latest"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/cloud"
+  to = "https://docs.thoughtspot.com/cloud/latest"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
 [[redirects]]
   from = "https://docs-thoughtspot-com.netlify.app/software/latest/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
@@ -6522,3 +6542,4 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 # renamed files 6.3 redirects end
+# cloud docs redirects
