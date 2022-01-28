@@ -15,6 +15,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect for home of sw and cloud docs
 
 [[redirects]]
+  from = "https://docs.thoughtspot.com/"
+  to = "https://docs.thoughtspot.com/index.html"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
   from = "https://docs.thoughtspot.com/software/7.1.1/third-party"
   to = "https://docs.thoughtspot.com/software/latest/third-party"
   status = 200
