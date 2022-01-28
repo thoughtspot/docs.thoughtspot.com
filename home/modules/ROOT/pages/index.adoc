@@ -1,32 +1,39 @@
 = ThoughtSpot Documentation
 :page-layout: home
 
+[.lead]
+**Welcome to the Modern Analytics Cloud**
+
+ThoughtSpot empowers you to turn data into actionable insights.
+Whether you’re using the ThoughtSpot application, embedding
+insights into apps, or building entirely new data products.
+
 Choose the documentation you need from the following choices:
 [.conceal-title]
 == {empty}
 ++++
 <div class="columns">
-  <div class="box-home">
+  <div class="box">
     <img src="_images/software.png">
     <h2>
       Software documentation
     </h2>
     <p>Deploy and manage ThoughtSpot in your own private cloud.</p>
     <ul>
-      <li><a href="https://docs-thoughtspot-com.netlify.app/software/latest">Go to Software docs</a></li>
+      <li><a href="https://docs.thoughtspot.com/software/latest">Go to Software docs</a></li>
     </ul>
     </div>
-  <div class="box-home">
+  <div class="box">
   <img src="_images/cloud.png">
     <h2>
       Cloud documentation
     </h2>
     <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p>
     <ul>
-      <li><a href="https://cloud-docs.thoughtspot.com/">Go to Cloud docs</a></li>
+      <li><a href="https://docs.thoughtspot.com/cloud/latest">Go to Cloud docs</a></li>
     </ul>
     </div>
-  <div class="box-home">
+  <div class="box">
     <img src="_images/developer.png">
     <h2>
       Developer documentation
@@ -36,5 +43,17 @@ Choose the documentation you need from the following choices:
       <li><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction">Go to Developer docs</a></li>
     </ul>
     </div>
- </div>
+ <div class="box">
+   <img src="_images/just-logo-black-40px.png">
+   <h2>
+     SeekWell documentation
+   </h2>
+   <p>Sync your data warehouse with all your
+favorite business apps and automate your customer data workflows
+faster than ever.</p>
+   <ul>
+     <li><a href="https://doc.seekwell.io/">Go to SeekWell docs</a></li>
+   </ul>
+   </div>
+</div>
 ++++
