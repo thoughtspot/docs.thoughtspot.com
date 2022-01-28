@@ -1,6 +1,6 @@
 site:
-  title: ThoughtSpot Software Documentation
-  url: https://docs.thoughtspot.com/software
+  title: ThoughtSpot Documentation
+  url: https://docs.thoughtspot.com
   start_page: home::index.adoc
 content:
   sources:
@@ -11,6 +11,9 @@ content:
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
     branches: ['6.0', '6.1', '6.2', '6.3', '7.0', '7.1']
     start_path: software/
+  - url: git@github.com:thoughtspot/thoughtspot-docs.git
+    branches: ['8.0.0.cl', 'ts8.nov.cl']
+    start_path: cloud/
 urls:
   latest_version_segment_strategy: redirect:to
   latest_version_segment: latest
@@ -26,16 +29,16 @@ ui:
     snapshot: true
 asciidoc:
   attributes:
-    software: true
-    cloud: false
+    #software: true
+    #cloud: false
     tabs: tabs
-    support-url: https://community.thoughtspot.com/s/login/?ec=302&startURL=%2Fcustomers%2Fs%2Fcontactsupport
+    support-url: https://community.thoughtspot.com/customers/s/contactsupport[ThoughtSpot Support^]
   extensions:
   - ./lib/asciidoctor-performance-patch.js
   - "@djencks/asciidoctor-tabset-block"
 output:
   clean: true
-  dir: build/software
+  dir: build/
 runtime:
   fetch: true
   log:
