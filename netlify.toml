@@ -22,7 +22,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.1.1/third-party"
-  to = "https://docs.thoughtspot.com/software/latest/third-party"
+  to = "https://docs.thoughtspot.com/software/7.1/third-party"
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
@@ -629,7 +629,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/7.1.0/data-integrate/embrace/*"
-  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  to = "https://docs.thoughtspot.com/software/7.1/:splat"
   status = 301
   force = true
 [[redirects]]
@@ -3278,7 +3278,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "/7.1.0.aug.sw/*"
-  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  to = "https://docs.thoughtspot.com/software/7.1/:splat"
   status = 301
   force = true
 [[redirects]]
@@ -3298,22 +3298,22 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "/7.1/release/help-center.html"
-  to = "/software/latest/help-center.html"
+  to = "/software/7.1/help-center.html"
   status = 301
   force = true
 [[redirects]]
   from = "/7.1.0.aug.sw/data-integrate/embrace/undefined"
-  to = "/software/latest/connections-databricks-reference.html"
+  to = "/software/7.1/connections-databricks-reference.html"
   status = 301
   force = true
 [[redirects]]
   from = "/7.1/reference/keywords.html"
-  to = "/software/latest/keywords.html"
+  to = "/software/7.1/keywords.html"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/7.1/release/downloads.html"
-  to = "https://docs.thoughtspot.com/software/latest/downloads.html"
+  to = "https://docs.thoughtspot.com/software/7.1/downloads.html"
   status = 301
   force = true
 [[redirects]]
@@ -3323,7 +3323,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/7.1/release/notes.html"
-  to = "/software/latest/notes.html"
+  to = "/software/7.1/notes.html"
   status = 301
   force = true
 [[redirects]]
@@ -3333,7 +3333,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "/7.1/*"
-  to = "/software/latest/:splat"
+  to = "/software/7.1/:splat"
   status = 301
   force = true
 [[redirects]]
