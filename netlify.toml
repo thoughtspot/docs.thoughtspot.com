@@ -3264,6 +3264,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/7.0/embrace-adw-reference.html"
   status = 301
   force = true
+# Global redirect for latest cloud to point to latest cloud
+[[redirects]]
+  from = "/cloud/8.0.0.cl/*"
+  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
+  status = 301
+  force = true
 [[redirects]]
   from = "/7.1.0.aug.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
