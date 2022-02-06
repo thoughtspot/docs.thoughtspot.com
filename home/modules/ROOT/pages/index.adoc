@@ -8,11 +8,11 @@ ThoughtSpot empowers you to turn data into actionable insights.
 Whether you’re using the ThoughtSpot application, embedding
 insights into apps, or building entirely new data products.
 
-Choose the documentation you need from the following choices:
+Choose your documentation:
 [.conceal-title]
 == {empty}
 ++++
-<div class="columns">
+<!-- <div class="columns">
   <div class="box">
     <img src="_images/software.png">
     <h2>
@@ -55,5 +55,30 @@ faster than ever.</p>
      <li><a href="https://doc.seekwell.io/">Go to SeekWell docs</a></li>
    </ul>
    </div>
-</div>
+</div> -->
+<div class="columns">
+    <div class="box-button"><a href = "https://docs.thoughtspot.com/software/latest" class = "panel-2">
+    <img src="_images/software.png" id="software-icon">
+    <h2>
+      Software
+    </h2>
+    <p>Deploy and manage ThoughtSpot in your own private cloud.</p>
+    </a></div>
+  <div class="box-button"><a href="https://docs.thoughtspot.com/cloud/latest" class="panel-2">
+      <span><img src="_images/cloud.png" id="cloud-icon">
+    <h2>
+      Cloud
+    </h2>
+    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
+    </a></div>
+  <div class="box-button"><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction" class="panel-2">
+      <span><img src="_images/developer.png" id="developer-icon">
+    <h2>
+      Developer
+    </h2>
+    <p>Build interactive data apps with a low-code developer-friendly platform.</p></span>
+    </a></div>
+  <div class="box-button"><a href="https://doc.seekwell.io/" class="panel-2">
+      <span><img src="_images/just-logo-black-40px.png" id="developer-icon">
+    <h2>
 ++++
