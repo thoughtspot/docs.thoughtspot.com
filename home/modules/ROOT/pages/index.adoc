@@ -81,4 +81,9 @@ faster than ever.</p>
   <div class="box-button"><a href="https://doc.seekwell.io/" class="panel-2">
       <span><img src="_images/just-logo-black-40px.png" id="developer-icon">
     <h2>
+    SeekWell
+    </h2>
+  <p>Sync your data warehouse with all your favorite business apps and automate your customer data workflows faster than ever.</p></span>
+  </a></div>
+</div>
 ++++
