@@ -3332,7 +3332,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
-  from = "/7.2.0.sw/*"
+  from = "/7.2.0.jan.sw/*"
   to = "/software/latest/:splat"
   status = 301
   force = true
