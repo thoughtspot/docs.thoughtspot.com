@@ -63,7 +63,7 @@ faster than ever.</p>
     <h2>
       Cloud
     </h2>
-    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
+    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver rapid innovations to you.</p></span>
     </a></div>
   <div class="box-button"><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction" class="panel-2">
       <span><img src="_images/developer.png" id="developer-icon">
