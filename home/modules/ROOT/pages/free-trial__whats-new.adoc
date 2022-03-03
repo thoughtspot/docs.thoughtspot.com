@@ -1,4 +1,4 @@
-:page-layout: blank
+:page-layout: home
 :page-toclevels: -1
 
 ++++
