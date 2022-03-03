@@ -1,7 +1,4 @@
-=
-:last_updated: 03/2/2022
-
-++++
+  ++++
 <!DOCTYPE html>
 <html lang="en">
      <head>
@@ -11,8 +8,8 @@
          <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
          <title>Thanks!</title>
     </head>
-    <body style="background-color:#373bb1;">
-        <span style="font-family:Lato; color: white; font-size:110%; display:inline-block; margin-left:140px; margin-top:80px">Thanks for your feedback!</span>
+    <body style="background-color:#ffffff;">
+        <span style="font-family:Lato; color: black; font-size:110%; display:inline-block; margin-left:140px; margin-top:80px">Thanks for your feedback!</span>
     </body>
     </html>
 ++++
