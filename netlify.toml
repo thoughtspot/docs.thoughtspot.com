@@ -284,272 +284,272 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # directory-level latest redirects latest start
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/admin-portal/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/architecture/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/backup-restore/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/data-modeling/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/data-security/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/features/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/loading/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/manage-jobs/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/misc/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/mobile/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/poc-features/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/scriptability/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/setup/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/system-admin/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/troubleshooting/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/ts-cloud/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/users-groups/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/admin/worksheets/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/advanced-search/formulas/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/custom-branding/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/data-api/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/embedding-viz/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/introduction/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/JSAPI/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/reference/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/runtime-filters/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/app-integrate/SAML/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/amazon-linux-2/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/aws/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/azure/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/gcp/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/hardware/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/rhel/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/vmware/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/appliance/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/complex-search/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/clients/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/dataflow/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/embrace/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/introduction/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/reference/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/troubleshooting*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/disaster-recovery/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/data-view/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/help-center/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/introduction/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/onboarding/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/pinboards/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/r-scripts/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/search/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/end-user/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/faq/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/reference/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
@@ -559,12 +559,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/release/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 [[redirects]]
   from = "https://docs.thoughtspot.com/latest/spotiq/*"
-  to = "https://docs.thoughtspot.com/software/7.0/:splat"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
   force = true
 # directory-level latest redirects latest end
