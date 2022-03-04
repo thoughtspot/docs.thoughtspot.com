@@ -16,7 +16,7 @@ const embedTemplate = `
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="https://docs-thoughtspot-com.netlify.app/_/css/vendor/snippet.css" />
+		<link rel="stylesheet" href="https://docs.thoughtspot.com/_/css/vendor/snippet.css" />
 		<title>$title</title>
 	</head>
 	<body>
