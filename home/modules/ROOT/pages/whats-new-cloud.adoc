@@ -44,7 +44,7 @@ ThoughtSpot provides advanced data encryption at rest (EAR) for granular user- a
 ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 ////
-
+<p>[embed label=“whats-new-cloud-8-0-0-cl”]</p>
 == 8.0.0.cl
 (January 2022)
 
@@ -116,7 +116,7 @@ OpenID Connect authentication::
 ThoughtSpot Cloud can use the OpenID Connect (OIDC) authentication framework to manage the identity layer to the OAuth 2.0 protocol and verify the user’s identity through authentication on the authorization server. See xref:8.0.0.cl@cloud:ROOT:oidc-configure.adoc[OpenID Connect authentication].
 
 ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
-
+<p>[/embed]</p>
 //....
 //<p>[/embed]</p>
 //....
