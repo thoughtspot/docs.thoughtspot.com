@@ -52,7 +52,7 @@ Getting started with ThoughtSpot Cloud::
 The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization's data. See xref:8.0.0.cl@cloud:ROOT:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
 New Answer experience::
-The xref:8.0.0.cl@cloud:answer-experience-new.adoc[new answer experience] is on by default, and offers these features:
+The xref:8.0.0.cl@cloud:ROOT:answer-experience-new.adoc[new answer experience] is on by default, and offers these features:
 
 - An *xref:8.0.0.cl@cloud:ROOT:formula-add.adoc[improved formula editor]* with integrated help
 - *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc[Table column summaries and headlines]* with conditional and number formatting, and updated *xref:8.0.0.cl@cloud:ROOT:search-spotiq-settings.adoc#search[Search and SpotIQ]* panels of the Admin console
