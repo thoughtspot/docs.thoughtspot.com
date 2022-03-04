@@ -10,7 +10,7 @@ const outputFolder = 'embed-snippets'
 
 console.log(`folder: ${folder}, basePath: ${basePath}, outputPath: ${outputPath}`)
 
-const docsBaseUrl = 'https://docs.thoughtspot.com/latest'
+const docsBaseUrl = 'https://docs.thoughtspot.com/'
 
 const embedTemplate = `
 <!DOCTYPE html>
