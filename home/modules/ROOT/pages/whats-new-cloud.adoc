@@ -11,7 +11,7 @@
 Reset button for saved answers::
 With the *reset* button (to the right of the search bar,next to the *undo* and *redo* buttons) you can return a saved answer to its last saved state. Available only for saved answers in the xref:answer-experience-new.adoc[new answer experience].
 +
-image::reset-button.gif[Using reset]
+image::8.1.0.cl@cloud:ROOT:reset-button.gif[Using reset]
 
 [#chart-kpi-sparkline]
 Sparkline visualization for KPI chart type::
@@ -21,21 +21,21 @@ Create sparkline visualizations of your data’s Key Performance Indicators (KPI
 Slack integration::
 Push insights from a saved answer or Liveboard to your Slack workspace, and deliver data directly to your Slack users. See xref:push-data-to-slack.adoc[Push data to a Slack workspace].
 +
-image::send-to-slack.png[Send to Slack]
+image::8.1.0.cl@cloud:ROOT:send-to-slack.png[Send to Slack]
 
 [#connections-oauth]
 OAuth for Connections::
 ThoughtSpot support OAuth for the following connections:
 +
 [#connections-redshift-oauth]
-* Amazon Redshift, see xref:connections-redshift-oauth.adoc[Configure OAuth for a Redshift connection].
+* Amazon Redshift, see xref:8.1.0.cl@cloud:ROOT:connections-redshift-oauth.adoc[Configure OAuth for a Redshift connection].
 +
 [#connections-azure-oauth]
-* Microsoft Azure Synapse, see xref:connections-synapse-oauth.adoc[Configure OAuth for an Azure Synapse connection].
+* Microsoft Azure Synapse, see xref:8.1.0.cl@cloud:ROOT:connections-synapse-oauth.adoc[Configure OAuth for an Azure Synapse connection].
 
 [#aws-region-japan]
 New Japan cloud region::
-ThoughtSpot Cloud is now available in Japan; see xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
+ThoughtSpot Cloud is now available in Japan; see xref:8.1.0.cl@cloud:ROOT:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
 
 [#encryption-at-rest]
 Encryption at rest [.badge.badge-update]#Beta#::
@@ -44,7 +44,7 @@ ThoughtSpot provides advanced data encryption at rest (EAR) for granular user- a
 ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
 ////
-<p>[embed label=“whats-new-cloud-8-0-0-cl”]</p>
+<p>[embed label="whats-new-cloud-8-0-0-cl"]</p>
 == 8.0.0.cl
 (January 2022)
 
@@ -52,16 +52,16 @@ Getting started with ThoughtSpot Cloud::
 The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization's data. See xref:8.0.0.cl@cloud:ROOT:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
 New Answer experience::
-The xref:answer-experience-new.adoc[new answer experience] is on by default, and offers these features:
+The xref:8.0.0.cl@cloud:answer-experience-new.adoc[new answer experience] is on by default, and offers these features:
 
 - An *xref:8.0.0.cl@cloud:ROOT:formula-add.adoc[improved formula editor]* with integrated help
-- *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc[Table column summaries and headlines]* with conditional and number formatting, and updated *xref:8.0.0.cl@cloud:ROOT:search-spotiq-settings#search.adoc[Search and SpotIQ]* panels of the Admin console
+- *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc[Table column summaries and headlines]* with conditional and number formatting, and updated *xref:8.0.0.cl@cloud:ROOT:search-spotiq-settings.adoc#search[Search and SpotIQ]* panels of the Admin console
 - *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.adoc#table[Conditional formatting]* for table attributes as part of the table configuration panel, including *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc#content-density[content density]* and *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc#table-theme[theme]* (outline, row, or stripe) of your table
 - *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.adoc#conditional-formatting-chart[Conditional formatting]* for chart measures in chart configuration
-- *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.aodc#table[Conditional formatting]* for pivot tables in chart configuration
+- *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.adoc#table[Conditional formatting]* for pivot tables in chart configuration
 - Imnproved *xref:8.0.0.cl@cloud:ROOT:chart-pivot-table.adoc[sorting for pivot tables]*, with multiple sorts at a time, such as sorting rows by a measure and sorting columns by an attribute
-- In-product *xref:8.0.0.cl@cloud:ROOT:chart-table-change,adoc#back-button[undo and redo]* buttons to go back or forward 1 step in a search or saved answer, such as adding a new column to the search, drill down, or sort
-- More intuitive UI for *xref:8.0.0.cl@cloud:ROOT:spotiq-custom.aodc#new-answer-experience[SpotIQ]* analysis of answer data points, which surfacing the most useful workflows and enables advanced customization
+- In-product *xref:8.0.0.cl@cloud:ROOT:chart-table-change.adoc#back-button[undo and redo]* buttons to go back or forward 1 step in a search or saved answer, such as adding a new column to the search, drill down, or sort
+- More intuitive UI for *xref:8.0.0.cl@cloud:ROOT:spotiq-custom.adoc#new-answer-experience[SpotIQ]* analysis of answer data points, which surfacing the most useful workflows and enables advanced customization
 - *xref:8.0.0.cl@cloud:ROOT:notes.adoc#learning-cards[Learning cards]* teach new users about ThoughtSpot, and how to gain insights from searches and answers
 - Improved logic for showing *chart elements* in Liveboard visualizations: for all Liveboard visualization sizes, ThoughtSpot shows axis values and labels. Except for the smallest size chart, ThoughtSpot also shows legends to the right of the chart.
 
