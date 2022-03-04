@@ -11,7 +11,7 @@
 Reset button for saved answers::
 With the *reset* button (to the right of the search bar,next to the *undo* and *redo* buttons) you can return a saved answer to its last saved state. Available only for saved answers in the xref:answer-experience-new.adoc[new answer experience].
 +
-image::reset-button.gif[Using reset]
+image::8.1.0.cl@cloud:ROOT:reset-button.gif[Using reset]
 
 [#chart-kpi-sparkline]
 Sparkline visualization for KPI chart type::
@@ -21,21 +21,21 @@ Create sparkline visualizations of your data’s Key Performance Indicators (KPI
 Slack integration::
 Push insights from a saved answer or Liveboard to your Slack workspace, and deliver data directly to your Slack users. See xref:push-data-to-slack.adoc[Push data to a Slack workspace].
 +
-image::send-to-slack.png[Send to Slack]
+image::8.1.0.cl@cloud:ROOT:send-to-slack.png[Send to Slack]
 
 [#connections-oauth]
 OAuth for Connections::
 ThoughtSpot support OAuth for the following connections:
 +
 [#connections-redshift-oauth]
-* Amazon Redshift, see xref:connections-redshift-oauth.adoc[Configure OAuth for a Redshift connection].
+* Amazon Redshift, see xref:8.1.0.cl@cloud:ROOT:connections-redshift-oauth.adoc[Configure OAuth for a Redshift connection].
 +
 [#connections-azure-oauth]
-* Microsoft Azure Synapse, see xref:connections-synapse-oauth.adoc[Configure OAuth for an Azure Synapse connection].
+* Microsoft Azure Synapse, see xref:8.1.0.cl@cloud:ROOT:connections-synapse-oauth.adoc[Configure OAuth for an Azure Synapse connection].
 
 [#aws-region-japan]
 New Japan cloud region::
-ThoughtSpot Cloud is now available in Japan; see xref:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
+ThoughtSpot Cloud is now available in Japan; see xref:8.1.0.cl@cloud:ROOT:ts-cloud-requirements-support.adoc[ThoughtSpot Cloud requirements and support].
 
 [#encryption-at-rest]
 Encryption at rest [.badge.badge-update]#Beta#::
