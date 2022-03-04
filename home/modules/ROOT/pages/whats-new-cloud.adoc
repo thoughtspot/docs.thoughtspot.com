@@ -49,7 +49,7 @@ ThoughtSpot Everywhere:: For information about the new features and enhancements
 (January 2022)
 
 Getting started with ThoughtSpot Cloud::
-The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization's data. See xref:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
+The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization's data. See xref:8.0.0.cl@cloud:ROOT:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
 
 New Answer experience::
 The xref:answer-experience-new.adoc[new answer experience] is on by default, and offers these features:
@@ -81,7 +81,7 @@ Liveboard schedules that your team created in earlier releases of our product ap
 Search answers::
 Navigate to the *Search answers and Liveboards* page from the top navigation bar; see xref:8.0.0.cl@cloud:ROOT:search-answers.adoc#search-answers-navigate[Search answers].
 +
-image::search-answers-bar.png[Search across existing Answers]
+image::8.0.0.cl@cloud:ROOT:search-answers-bar.png[Search across existing Answers]
 
 [#chart-kpi]
 Key Performance Indicators (KPI) chart [.badge.badge-update]#Beta#::
