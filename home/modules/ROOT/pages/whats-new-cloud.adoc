@@ -54,15 +54,15 @@ The first person on the account must complete a series of steps to enable others
 New Answer experience::
 The xref:answer-experience-new.adoc[new answer experience] is on by default, and offers these features:
 
-- An *xref:8.0.0.cl@cloud:formula-add.adoc[improved formula editor]* with integrated help
-- *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc[Table column summaries and headlines]* with conditional and number formatting, and updated *xref:search-spotiq-settings#search.adoc[Search and SpotIQ]* panels of the Admin console
-- *xref:search-conditional-formatting.adoc#table[Conditional formatting]* for table attributes as part of the table configuration panel, including *xref:chart-table.adoc#content-density[content density]* and *xref:chart-table.adoc#table-theme[theme]* (outline, row, or stripe) of your table
-- xref:**search-conditional-formatting.adoc#conditional-formatting-chart[Conditional formatting]** for chart measures in chart configuration
-- *xref:search-conditional-formatting.aodc#table[Conditional formatting]* for pivot tables in chart configuration
-- Imnproved *xref:chart-pivot-table.adoc[sorting for pivot tables]*, with multiple sorts at a time, such as sorting rows by a measure and sorting columns by an attribute
-- In-product *xref:chart-table-change,adoc#back-button[undo and redo]* buttons to go back or forward 1 step in a search or saved answer, such as adding a new column to the search, drill down, or sort
-- More intuitive UI for *xref:spotiq-custom.aodc#new-answer-experience[SpotIQ]* analysis of answer data points, which surfacing the most useful workflows and enables advanced customization
-- *xref:notes.adoc#learning-cards[Learning cards]* teach new users about ThoughtSpot, and how to gain insights from searches and answers
+- An *xref:8.0.0.cl@cloud:ROOT:formula-add.adoc[improved formula editor]* with integrated help
+- *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc[Table column summaries and headlines]* with conditional and number formatting, and updated *xref:8.0.0.cl@cloud:ROOT:search-spotiq-settings#search.adoc[Search and SpotIQ]* panels of the Admin console
+- *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.adoc#table[Conditional formatting]* for table attributes as part of the table configuration panel, including *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc#content-density[content density]* and *xref:8.0.0.cl@cloud:ROOT:chart-table.adoc#table-theme[theme]* (outline, row, or stripe) of your table
+- *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.adoc#conditional-formatting-chart[Conditional formatting]* for chart measures in chart configuration
+- *xref:8.0.0.cl@cloud:ROOT:search-conditional-formatting.aodc#table[Conditional formatting]* for pivot tables in chart configuration
+- Imnproved *xref:8.0.0.cl@cloud:ROOT:chart-pivot-table.adoc[sorting for pivot tables]*, with multiple sorts at a time, such as sorting rows by a measure and sorting columns by an attribute
+- In-product *xref:8.0.0.cl@cloud:ROOT:chart-table-change,adoc#back-button[undo and redo]* buttons to go back or forward 1 step in a search or saved answer, such as adding a new column to the search, drill down, or sort
+- More intuitive UI for *xref:8.0.0.cl@cloud:ROOT:spotiq-custom.aodc#new-answer-experience[SpotIQ]* analysis of answer data points, which surfacing the most useful workflows and enables advanced customization
+- *xref:8.0.0.cl@cloud:ROOT:notes.adoc#learning-cards[Learning cards]* teach new users about ThoughtSpot, and how to gain insights from searches and answers
 - Improved logic for showing *chart elements* in Liveboard visualizations: for all Liveboard visualization sizes, ThoughtSpot shows axis values and labels. Except for the smallest size chart, ThoughtSpot also shows legends to the right of the chart.
 
 +
@@ -74,22 +74,22 @@ Along with the new features, we are deprecating the following affordances that w
 - *Client-side summaries for tables*; instead, use headline summaries, which are integrated with the table columns. You can pin them to Liveboards.
 
 Liveboard schedule::
-The new *Schedule* feature combines the Liveboard follow and xref:liveboard-schedule.adoc[Liveboard Schedule] into a single action. Select the *Schedule* button to the left of the *More (...)* menu for a new schedule to receive emails with a pdf representation of your Liveboard.
+The new *Schedule* feature combines the Liveboard follow and xref:8.0.0.cl@cloud:ROOT:liveboard-schedule.adoc[Liveboard Schedule] into a single action. Select the *Schedule* button to the left of the *More (...)* menu for a new schedule to receive emails with a pdf representation of your Liveboard.
 +
 Liveboard schedules that your team created in earlier releases of our product appear in the list of Liveboard schedules as _Migrated from follow (your display name)_.
 
 Search answers::
-Navigate to the *Search answers and Liveboards* page from the top navigation bar; see xref:search-answers.adoc#search-answers-navigate[Search answers].
+Navigate to the *Search answers and Liveboards* page from the top navigation bar; see xref:8.0.0.cl@cloud:ROOT:search-answers.adoc#search-answers-navigate[Search answers].
 +
 image::search-answers-bar.png[Search across existing Answers]
 
 [#chart-kpi]
 Key Performance Indicators (KPI) chart [.badge.badge-update]#Beta#::
-Create visualizations of your data’s Key Performance Indicators (KPIs). For more information, see xref:chart-kpi.adoc[].
+Create visualizations of your data’s Key Performance Indicators (KPIs). For more information, see xref:8.0.0.cl@cloud:ROOT:chart-kpi.adoc[].
 
 [#monitor-kpi]
 Monitor KPIs [.badge.badge-update]#Beta#::
-The KPI chart supports scheduled alerts for changes in your data. Use the Monitor function to schedule notifications, and then view and manage all KPI alerts; see xref:monitor.adoc[].
+The KPI chart supports scheduled alerts for changes in your data. Use the Monitor function to schedule notifications, and then view and manage all KPI alerts; see xref:8.0.0.cl@cloud:ROOT:monitor.adoc[].
 
 [#workspace-one]
 Support for VMware Workspace One::
@@ -97,7 +97,7 @@ ThoughtSpot now supports all versions of VMware Workspace One browser for the Th
 
 [#auto-select-data-source]
 Auto-select search data source for new users::
-ThoughtSpot intelligently selects a data source for new users when they experience xref:search-data.adoc[Search Data] by choosing the most popular data source in the production cluster, enabling faster and easier insights.
+ThoughtSpot intelligently selects a data source for new users when they experience xref:8.0.0.cl@cloud:ROOT:search-data.adoc[Search Data] by choosing the most popular data source in the production cluster, enabling faster and easier insights.
 
 [#eureka-japanese]
 Support for searching answers in Japanese [.badge.badge-update]#Beta#::
@@ -105,7 +105,7 @@ ThoughtSpot now supports Search Answers in Japanese.
 
 [#vpn]
 OpenVPN support for Snowflake on Azure connections::
-ThoughtSpot Cloud has secured access to your data in Snowflake on Azure through your OpenVPN server, with the following OpenVPN server implementations. See xref:connections-synapse-open-vpn.adoc[OpenVPN for Azure Synapse and Snowflake on Azure].
+ThoughtSpot Cloud has secured access to your data in Snowflake on Azure through your OpenVPN server, with the following OpenVPN server implementations. See xref:8.0.0.cl@cloud:ROOT:connections-synapse-open-vpn.adoc[OpenVPN for Azure Synapse and Snowflake on Azure].
 
 * https://openvpn.net/community-downloads/[OpenVPN Community Edition^]
 * https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-openvpn-clients[Azure VPN^]
@@ -113,7 +113,7 @@ ThoughtSpot Cloud has secured access to your data in Snowflake on Azure through 
 
 [#oidc]
 OpenID Connect authentication::
-ThoughtSpot Cloud can use the OpenID Connect (OIDC) authentication framework to manage the identity layer to the OAuth 2.0 protocol and verify the user’s identity through authentication on the authorization server. See xref:oidc-configure.adoc[OpenID Connect authentication].
+ThoughtSpot Cloud can use the OpenID Connect (OIDC) authentication framework to manage the identity layer to the OAuth 2.0 protocol and verify the user’s identity through authentication on the authorization server. See xref:8.0.0.cl@cloud:ROOT:oidc-configure.adoc[OpenID Connect authentication].
 
 ThoughtSpot Everywhere:: For information about the new features and enhancements introduced in this release, refer to https://developers.thoughtspot.com/docs/?pageid=whats-new[ThoughtSpot Developer Documentation^].
 
