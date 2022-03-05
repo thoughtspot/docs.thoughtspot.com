@@ -32,9 +32,16 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/latest"
   status = 301
   force = true # COMMENT: ensure that we always redirect
+
 [[redirects]]
   from = "https://docs.thoughtspot.com/7.2.0/release/downloads.html"
   to = "https://docs.thoughtspot.com/software/latest/downloads"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/release/help-center.html"
+  to = "https://docs.thoughtspot.com/software/latest/help-center"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
