@@ -27,6 +27,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/latest/notes"
   status = 301
   force = true # COMMENT: ensure that we always redirect
+
 [[redirects]]
   from = "https://docs.thoughtspot.com/7.2.0"
   to = "https://docs.thoughtspot.com/software/latest"
@@ -51,13 +52,13 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-[redirects]]
+[[redirects]]
   from = "https://docs.thoughtspot.com/7.2.0/admin/ts-cloud/authentication-integration.html"
   to = "https://docs.thoughtspot.com/software/latest/saml"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-[redirects]]
+[[redirects]]
   from = "https://docs.thoughtspot.com/7.2.0/admin/setup/LDAP-config-AD.html"
   to = "https://docs.thoughtspot.com/software/latest/ldap-config-ad"
   status = 301
