@@ -1,3 +1,4 @@
+[.lead]
 **8.0.0.cl** (January 2022)
 
 Getting started with ThoughtSpot Cloud::
