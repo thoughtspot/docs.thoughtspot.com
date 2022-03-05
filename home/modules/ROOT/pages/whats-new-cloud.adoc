@@ -2,6 +2,4 @@
 :page-layout: home
 :page-toclevels: -1
 
-'''
-== 8.0.0.cl
 include::partial$whats-new-8-0-0-cl.adoc[]
