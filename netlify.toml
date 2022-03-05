@@ -14,6 +14,32 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
+# 7.2 to latest redirects - start
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/reference/keywords.html"
+  to = "https://docs.thoughtspot.com/software/latest/keywords"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/release/notes.html"
+  to = "https://docs.thoughtspot.com/software/latest/notes"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0"
+  to = "https://docs.thoughtspot.com/software/latest"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/release/downloads.html"
+  to = "https://docs.thoughtspot.com/software/latest/downloads"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+# 7.2 to latest redirects - end
+
 [[redirects]]
   from = "https://docs.thoughtspot.com/"
   to = "https://docs.thoughtspot.com/index.html"

@@ -1,5 +1,4 @@
-== 8.1.0.cl
-(March 2022)
++++<span class="label label-dep">8.1.0.cl</span>+++ March 2022
 
 Reset button for saved answers::
 With the *reset* button (to the right of the search bar,next to the *undo* and *redo* buttons) you can return a saved answer to its last saved state. Available only for saved answers in the xref:answer-experience-new.adoc[new answer experience].
