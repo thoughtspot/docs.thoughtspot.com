@@ -1,5 +1,4 @@
-[.lead]
-**8.0.0.cl** (January 2022)
++++<span class="label label-new">8.0.0.cl</span>+++ (January 2022)
 
 Getting started with ThoughtSpot Cloud::
 The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization's data. See xref:8.0.0.cl@cloud:ROOT:ts-cloud-getting-started.adoc[Getting Started with ThoughtSpot Cloud].
