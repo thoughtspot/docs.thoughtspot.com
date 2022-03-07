@@ -81,4 +81,6 @@ faster than ever.</p>
     </a></div>
  </div>
 ++++
+== What's new in ThoughtSpot Cloud
+
 include::partial$whats-new-8-0-0-cl.adoc[]
