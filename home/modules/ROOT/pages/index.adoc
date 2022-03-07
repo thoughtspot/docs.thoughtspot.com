@@ -84,7 +84,7 @@ faster than ever.</p>
 [.conceal-title]
 == {empty}
 ++++
-<div class="columns">
+<div class="box-button-columns">
     <div class="box-wide">
     <p><div class="sect1">
 <h2 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h2>
