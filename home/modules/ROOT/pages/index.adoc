@@ -81,3 +81,4 @@ faster than ever.</p>
     </a></div>
  </div>
 ++++
+include::partial$whats-new-8-0-0-cl.adoc[]
