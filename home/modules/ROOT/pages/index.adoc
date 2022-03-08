@@ -61,7 +61,7 @@ b, dt, strong, th {
     <h2>
       Cloud
     </h2>
-    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver rapid innovations to you.</p></span>
+    <p>Use our fully managed SaaS solution where we handle the hard stuff and deliver you rapid innovations.</p></span>
     </a></div>
   <div class="box-button"><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction" class="panel-2">
       <span><img src="_images/developer.png" id="developer-icon">
@@ -78,14 +78,14 @@ b, dt, strong, th {
     <p>Sync your data warehouse with all your favorite business apps and automate your customer data workflows faster than ever.</p></span>
     </a></div>
  </div>
- ++++
+++++
 
 [.conceal-title]
 == {empty}
 ++++
 <div class="box-wide-columns">
-   <div class="box-wide">
-   <p><div class="sect1">
+    <div class="box-wide">
+    <p><div class="sect1">
 <h2 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -248,5 +248,5 @@ b, dt, strong, th {
 </div>
 </div>
 </div></p>
-   </a></div></div>
+    </a></div></div>
 ++++
