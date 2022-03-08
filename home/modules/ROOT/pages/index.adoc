@@ -84,8 +84,8 @@ b, dt, strong, th {
 == {empty}
 ++++
 <div class="box-wide-columns">
-    <div class="box-wide">
-    <p><div class="sect1">
+   <div class="box-wide">
+   <p><div class="sect1">
 <h2 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -248,5 +248,5 @@ b, dt, strong, th {
 </div>
 </div>
 </div></p>
-    </a></div></div>
+   </a></div></div>
 ++++
