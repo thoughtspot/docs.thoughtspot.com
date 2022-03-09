@@ -28,7 +28,7 @@ b, dt, strong, th {
     line-height: 1.6;
 }
 
-.home .box-wide p {
+p {
     margin: medium;
     color: #444;
     font-size: .84444rem;
