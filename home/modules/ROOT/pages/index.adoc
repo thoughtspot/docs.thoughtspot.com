@@ -93,7 +93,7 @@ b, dt, strong, th {
 <div class="box-wide-columns">
     <div class="box-wide">
 <div class="sect1">
-<!-- <h2 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h2> -->
+<h2 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><span class="label label-dep">8.1.0.cl</span> March 2022</p>
@@ -179,7 +179,7 @@ b, dt, strong, th {
 <div class="box-wide-columns">
     <div class="box-wide">
     <p><div class="sect1">
-<h3 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h3>
+<h3 id="_previous_releases"><a class="anchor" href="#_previous_releases_cloud"></a>Previous releases</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p><span class="label label-dep">8.0.0.cl</span> January 2022</p>
