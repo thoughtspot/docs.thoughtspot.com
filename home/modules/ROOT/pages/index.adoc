@@ -188,7 +188,7 @@ b, dt, strong, th {
 <dl>
 <dt class="hdlist1">Getting started with ThoughtSpot Cloud</dt>
 <dd>
-<p>The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization&#8217;s data. See <a href="https://docs.thoughtspot.com/cloud/latest/ts-cloud-getting-started" class="page">Getting Started with ThoughtSpot Cloud</a>.</p>
+<p>The first person on the account must complete a series of steps to enable others to use ThoughtSpot with your organization&#8217;s data. See <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/ts-cloud-getting-started" class="page">Getting Started with ThoughtSpot Cloud</a>.</p>
 </dd>
 <dt class="hdlist1">New Answer experience</dt>
 <dd>
