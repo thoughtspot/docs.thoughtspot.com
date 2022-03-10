@@ -18,9 +18,16 @@ h2#_whats_new_in_thoughtspot_cloud {
     font-weight: 450;
     font-size: larger;
 }
+
+h3#_previous_releases_cloud {
+    font-weight: 300;
+    font-size: medium;
+}
+
 .dlist dt {
     font-style: normal !important;
 }
+
 b, dt, strong, th {
     font-weight: 500;
     font-size: .84444rem;
@@ -85,8 +92,94 @@ b, dt, strong, th {
 ++++
 <div class="box-wide-columns">
     <div class="box-wide">
-    <p><div class="sect1">
+<div class="sect1">
 <h2 id="_whats_new_in_thoughtspot_cloud"><a class="anchor" href="#_whats_new_in_thoughtspot_cloud"></a>What&#8217;s new in ThoughtSpot Cloud</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><span class="label label-dep">8.1.0.cl</span> March 2022</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Reset button for saved answers</dt>
+<dd>
+<p>With the <strong>reset</strong> button (to the right of the search bar,next to the <strong>undo</strong> and <strong>redo</strong> buttons) you can return a saved answer to its last saved state. Available only for saved answers in the <a href="https://docs.thoughtspot.com/cloud/latest/answer-experience-new" class="page">new answer experience</a>.</p>
+<div class="imageblock">
+<div class="content">
+<img src="_images/reset-button.gif" alt="Using reset">
+</div>
+</div>
+</dd>
+</dl>
+</div>
+<div id="chart-kpi-sparkline" class="dlist">
+<dl>
+<dt class="hdlist1">Sparkline visualization for KPI chart type</dt>
+<dd>
+<p>Create sparkline visualizations of your data’s Key Performance Indicators (KPIs) when searching for a measure using a time-related keyword, such as `Sales weekly'. See <a href="https://docs.thoughtspot.com/cloud/latest/chart-kpi#kpi-sparkline" class="page">Sparkline visualizations for time-series KPIs</a>.</p>
+</dd>
+</dl>
+</div>
+<div id="slack" class="dlist">
+<dl>
+<dt class="hdlist1">Slack integration</dt>
+<dd>
+<p>Push insights from a saved answer or Liveboard to your Slack workspace, and deliver data directly to your Slack users. See <a href="https://docs.thoughtspot.com/cloud/latest/push-data-to-slack" class="page">Push data to a Slack workspace</a>.</p>
+<div class="imageblock">
+<div class="content">
+<img src="_images/send-to-slack.png" alt="Send to Slack">
+</div>
+</div>
+</dd>
+</dl>
+</div>
+<div id="connections-oauth" class="dlist">
+<dl>
+<dt class="hdlist1">OAuth for Connections</dt>
+<dd>
+<p>ThoughtSpot support OAuth for the following connections:</p>
+<div id="connections-redshift-oauth" class="ulist">
+<ul>
+<li>
+<p>Amazon Redshift, see <a href="https://docs.thoughtspot.com/cloud/latest/connections-redshift-oauth" class="page">Configure OAuth for a Redshift connection</a>.</p>
+</li>
+<li>
+<p>Microsoft Azure Synapse, see <a href="https://docs.thoughtspot.com/cloud/latest/connections-synapse-oauth" class="page">Configure OAuth for an Azure Synapse connection</a>.</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+<div id="aws-region-japan" class="dlist">
+<dl>
+<dt class="hdlist1">New Japan cloud region</dt>
+<dd>
+<p>ThoughtSpot Cloud is now available in Japan; see <a href="https://docs.thoughtspot.com/cloud/latest/ts-cloud-requirements-support" class="page">ThoughtSpot Cloud requirements and support</a>.</p>
+</dd>
+</dl>
+</div>
+<div id="encryption-at-rest" class="dlist">
+<dl>
+<dt class="hdlist1">Encryption at rest <span class="badge badge-update">Beta</span></dt>
+<dd>
+<p>ThoughtSpot provides advanced data encryption at rest (EAR) for granular user- and folder-level controls when encrypting your persistent data.</p>
+</dd>
+<dt class="hdlist1">ThoughtSpot Everywhere</dt>
+<dd>
+<p>For information about the new features and enhancements introduced in this release, refer to <a href="https://developers.thoughtspot.com/docs/?pageid=whats-new" target="_blank" rel="noopener">ThoughtSpot Developer Documentation</a>.</p>
+</dd>
+<br></br>
+</dl>
+</div>
+</div>
+</div></p>
+    </a></div></div>
+++++
+++++
+<div class="box-wide-columns">
+    <div class="box-wide">
+    <p><div class="sect1">
+<h3 id="_previous_releases"><a class="anchor" href="#_previous_releases_cloud"></a>Previous releases</h3>
 <div class="sectionbody">
 <div class="paragraph">
 <p><span class="label label-dep">8.0.0.cl</span> January 2022</p>
@@ -99,35 +192,35 @@ b, dt, strong, th {
 </dd>
 <dt class="hdlist1">New Answer experience</dt>
 <dd>
-<p>The <a href="https://docs.thoughtspot.com/cloud/latest/answer-experience-new" class="page">new answer experience</a> is on by default, and offers these features:</p>
+<p>The <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/answer-experience-new" class="page">new answer experience</a> is on by default, and offers these features:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>An <strong><a href="https://docs.thoughtspot.com/cloud/latest/formula-add" class="page">improved formula editor</a></strong> with integrated help</p>
+<p>An <strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/formula-add" class="page">improved formula editor</a></strong> with integrated help</p>
 </li>
 <li>
-<p><strong><a href="https://docs.thoughtspot.com/cloud/latest/chart-table" class="page">Table column summaries and headlines</a></strong> with conditional and number formatting, and updated <strong><a href="search-spotiq-settings#search" class="page">Search and SpotIQ</a></strong> panels of the Admin console</p>
+<p><strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/chart-table" class="page">Table column summaries and headlines</a></strong> with conditional and number formatting, and updated <strong><a href="search-spotiq-settings#search" class="page">Search and SpotIQ</a></strong> panels of the Admin console</p>
 </li>
 <li>
-<p><strong><a href="https://docs.thoughtspot.com/cloud/latest/search-conditional-formatting#table" class="page">Conditional formatting</a></strong> for table attributes as part of the table configuration panel, including <strong><a href="chart-table#content-density" class="page">content density</a></strong> and <strong><a href="chart-table#table-theme" class="page">theme</a></strong> (outline, row, or stripe) of your table</p>
+<p><strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/search-conditional-formatting#table" class="page">Conditional formatting</a></strong> for table attributes as part of the table configuration panel, including <strong><a href="chart-table#content-density" class="page">content density</a></strong> and <strong><a href="chart-table#table-theme" class="page">theme</a></strong> (outline, row, or stripe) of your table</p>
 </li>
 <li>
-<p><strong><a href="https://docs.thoughtspot.com/cloud/latest/search-conditional-formatting#conditional-formatting-chart" class="page">Conditional formatting</a></strong> for chart measures in chart configuration</p>
+<p><strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/search-conditional-formatting#conditional-formatting-chart" class="page">Conditional formatting</a></strong> for chart measures in chart configuration</p>
 </li>
 <li>
-<p><strong><a href="https://docs.thoughtspot.com/cloud/latest/search-conditional-formatting#table" class="page">Conditional formatting</a></strong> for pivot tables in chart configuration</p>
+<p><strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/search-conditional-formatting#table" class="page">Conditional formatting</a></strong> for pivot tables in chart configuration</p>
 </li>
 <li>
-<p>Imnproved <strong><a href="https://docs.thoughtspot.com/cloud/latest/chart-pivot-table" class="page">sorting for pivot tables</a></strong>, with multiple sorts at a time, such as sorting rows by a measure and sorting columns by an attribute</p>
+<p>Imnproved <strong><a href="https://docs.thoughtspot.com/8.0.0.cl/latest/chart-pivot-table" class="page">sorting for pivot tables</a></strong>, with multiple sorts at a time, such as sorting rows by a measure and sorting columns by an attribute</p>
 </li>
 <li>
-<p>In-product <strong><a href="https://docs.thoughtspot.com/cloud/latest/chart-table-change#back-button" class="page">undo and redo</a></strong> buttons to go back or forward 1 step in a search or saved answer, such as adding a new column to the search, drill down, or sort</p>
+<p>In-product <strong><a href="https://docs.thoughtspot.com/8.0.0.cl/latest/chart-table-change#back-button" class="page">undo and redo</a></strong> buttons to go back or forward 1 step in a search or saved answer, such as adding a new column to the search, drill down, or sort</p>
 </li>
 <li>
-<p>More intuitive UI for <strong><a href="https://docs.thoughtspot.com/cloud/latest/spotiq-custom#new-answer-experience" class="page">SpotIQ</a></strong> analysis of answer data points, which surfacing the most useful workflows and enables advanced customization</p>
+<p>More intuitive UI for <strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/spotiq-custom#new-answer-experience" class="page">SpotIQ</a></strong> analysis of answer data points, which surfacing the most useful workflows and enables advanced customization</p>
 </li>
 <li>
-<p><strong><a href="https://docs.thoughtspot.com/cloud/latest/notes#learning-cards" class="page">Learning cards</a></strong> teach new users about ThoughtSpot, and how to gain insights from searches and answers</p>
+<p><strong><a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/notes#learning-cards" class="page">Learning cards</a></strong> teach new users about ThoughtSpot, and how to gain insights from searches and answers</p>
 </li>
 <li>
 <p>Improved logic for showing <strong>chart elements</strong> in Liveboard visualizations: for all Liveboard visualization sizes, ThoughtSpot shows axis values and labels. Except for the smallest size chart, ThoughtSpot also shows legends to the right of the chart.</p>
@@ -156,14 +249,14 @@ b, dt, strong, th {
 </dd>
 <dt class="hdlist1">Liveboard schedule</dt>
 <dd>
-<p>The new <strong>Schedule</strong> feature combines the Liveboard follow and <a href="https://docs.thoughtspot.com/cloud/latest/liveboard-schedule" class="page">Liveboard Schedule</a> into a single action. Select the <strong>Schedule</strong> button to the left of the <strong>More (&#8230;&#8203;)</strong> menu for a new schedule to receive emails with a pdf representation of your Liveboard.</p>
+<p>The new <strong>Schedule</strong> feature combines the Liveboard follow and <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/liveboard-schedule" class="page">Liveboard Schedule</a> into a single action. Select the <strong>Schedule</strong> button to the left of the <strong>More (&#8230;&#8203;)</strong> menu for a new schedule to receive emails with a pdf representation of your Liveboard.</p>
 <div class="paragraph">
 <p>Liveboard schedules that your team created in earlier releases of our product appear in the list of Liveboard schedules as <em>Migrated from follow (your display name)</em>.</p>
 </div>
 </dd>
 <dt class="hdlist1">Search answers</dt>
 <dd>
-<p>Navigate to the <strong>Search answers and Liveboards</strong> page from the top navigation bar; see <a href="https://docs.thoughtspot.com/cloud/latest/search-answers#search-answers-navigate" class="page">Search answers</a>.</p>
+<p>Navigate to the <strong>Search answers and Liveboards</strong> page from the top navigation bar; see <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/search-answers#search-answers-navigate" class="page">Search answers</a>.</p>
 <div class="imageblock">
 <div class="content">
 <img src="_images/search-answers-bar.png" alt="Search across existing Answers">
@@ -176,7 +269,7 @@ b, dt, strong, th {
 <dl>
 <dt class="hdlist1">Key Performance Indicators (KPI) chart <span class="badge badge-update">Beta</span></dt>
 <dd>
-<p>Create visualizations of your data’s Key Performance Indicators (KPIs). For more information, see <a href="https://docs.thoughtspot.com/cloud/latest/chart-kpi" class="page">KPI charts</a>.</p>
+<p>Create visualizations of your data’s Key Performance Indicators (KPIs). For more information, see <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/chart-kpi" class="page">KPI charts</a>.</p>
 </dd>
 </dl>
 </div>
@@ -184,7 +277,7 @@ b, dt, strong, th {
 <dl>
 <dt class="hdlist1">Monitor KPIs <span class="badge badge-update">Beta</span></dt>
 <dd>
-<p>The KPI chart supports scheduled alerts for changes in your data. Use the Monitor function to schedule notifications, and then view and manage all KPI alerts; see <a href="https://docs.thoughtspot.com/cloud/latest/monitor" class="page">Monitor Key Performance Indicators in your data</a>.</p>
+<p>The KPI chart supports scheduled alerts for changes in your data. Use the Monitor function to schedule notifications, and then view and manage all KPI alerts; see <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/monitor" class="page">Monitor Key Performance Indicators in your data</a>.</p>
 </dd>
 </dl>
 </div>
@@ -200,7 +293,7 @@ b, dt, strong, th {
 <dl>
 <dt class="hdlist1">Auto-select search data source for new users</dt>
 <dd>
-<p>ThoughtSpot intelligently selects a data source for new users when they experience <a href="https://docs.thoughtspot.com/cloud/latest/search-data" class="page">Search Data</a> by choosing the most popular data source in the production cluster, enabling faster and easier insights.</p>
+<p>ThoughtSpot intelligently selects a data source for new users when they experience <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/search-data" class="page">Search Data</a> by choosing the most popular data source in the production cluster, enabling faster and easier insights.</p>
 </dd>
 </dl>
 </div>
@@ -216,7 +309,7 @@ b, dt, strong, th {
 <dl>
 <dt class="hdlist1">OpenVPN support for Snowflake on Azure connections</dt>
 <dd>
-<p>ThoughtSpot Cloud has secured access to your data in Snowflake on Azure through your OpenVPN server, with the following OpenVPN server implementations. See <a href="https://docs.thoughtspot.com/cloud/latest/connections-synapse-open-vpn" class="page">OpenVPN for Azure Synapse and Snowflake on Azure</a>.</p>
+<p>ThoughtSpot Cloud has secured access to your data in Snowflake on Azure through your OpenVPN server, with the following OpenVPN server implementations. See <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/connections-synapse-open-vpn" class="page">OpenVPN for Azure Synapse and Snowflake on Azure</a>.</p>
 <div class="ulist">
 <ul>
 <li>
@@ -237,7 +330,7 @@ b, dt, strong, th {
 <dl>
 <dt class="hdlist1">OpenID Connect authentication</dt>
 <dd>
-<p>ThoughtSpot Cloud can use the OpenID Connect (OIDC) authentication framework to manage the identity layer to the OAuth 2.0 protocol and verify the user’s identity through authentication on the authorization server. See <a href="https://docs.thoughtspot.com/cloud/latest/oidc-configure" class="page">OpenID Connect authentication</a>.</p>
+<p>ThoughtSpot Cloud can use the OpenID Connect (OIDC) authentication framework to manage the identity layer to the OAuth 2.0 protocol and verify the user’s identity through authentication on the authorization server. See <a href="https://docs.thoughtspot.com/cloud/8.0.0.cl/oidc-configure" class="page">OpenID Connect authentication</a>.</p>
 </dd>
 <dt class="hdlist1">ThoughtSpot Everywhere</dt>
 <dd>
