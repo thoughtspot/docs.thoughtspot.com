@@ -44,4 +44,4 @@ p {
 </style>
 ++++
 
-include::partial$whats-new-8-0-0-cl.adoc[]
+include::8.0.0.cl@cloud:ROOT:partial$whats-new-8-0-0-cl.adoc[]
