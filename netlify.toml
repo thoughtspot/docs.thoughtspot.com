@@ -42,8 +42,8 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.1.0.cl/admin/worksheets/yaml-worksheet.html"
+  [[redirects]]
+    from = "https://docs.thoughtspot.com/cloud/8.1.0.cl/admin/worksheets/yaml-worksheet.html"
   to = "https://docs.thoughtspot.com/cloud/8.1.0.cl/tml"
   status = 301
   force = true # COMMENT: ensure that we always redirect
