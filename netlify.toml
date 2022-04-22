@@ -37,12 +37,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.1.0.cl/"
-  to = "https://docs.thoughtspot.com/cloud/latest/"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.1.0.cl/admin/scriptability/tml.html"
   to = "https://docs.thoughtspot.com/cloud/latest/tml"
   status = 301
