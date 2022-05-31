@@ -22,6 +22,14 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 
+# 7.1.1.sw site-wide redirects
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.1.1.CU1/*"
+  to = "https://docs.thoughtspot.com/software/7.1/:splat"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
 # 8.3.0.cl redirects start
 
 [[redirects]]
@@ -33,6 +41,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.3.0.cl/notes"
   to = "https://docs.thoughtspot.com/cloud/latest/notes"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/cloud/8.3.0.cl/*"
+  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
