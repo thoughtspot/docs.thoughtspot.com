@@ -1,0 +1,10 @@
+[format="csv", options="header"]
+|===
+External Release Names, Releases Number, Release Date
+8.4.0 Software May Release, 8.4.0.sw, May'22
+8.4.1 Software Aug Maintenance, 8.4.1.sw, Aug'22
+8.8.0 Software Sep Release, 8.8.0.sw, Sep'22
+8.8.1 Software Dec Maintenance, 8.8.1.sw, Dec'22
+8.11.0 Software Jan Release, 8.11.0.sw, Jan'23
+8.11.1 Software Apr Maintenance, 8.11.1.sw, Apr'23
+|===
