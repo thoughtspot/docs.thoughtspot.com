@@ -28,6 +28,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
+[[redirects]]
+  from = "https://docs.thoughtspot.com/cloud/8.3.0.cl/*"
+  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
 # 7.2.1 sw redirects start
 
 [[redirects]]
@@ -51,24 +57,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true # COMMENT: ensure that we always redirect
 
 # 8.4.0.cl redirects start
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.4.0.cl/"
-  to = "https://docs.thoughtspot.com/cloud/latest/"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.4.0.cl/notes"
-  to = "https://docs.thoughtspot.com/cloud/latest/notes"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.4.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
 
 # 8.1.0.cl in-product link - redirects - start
 
@@ -3396,12 +3384,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 [[redirects]]
   from = "https://docs.thoughtspot.com/7.0/data-integrate/embrace/embrace-adw-reference.html*"
   to = "https://docs.thoughtspot.com/software/7.0/embrace-adw-reference.html"
-  status = 301
-  force = true
-# Global redirect for latest cloud to point to latest cloud
-[[redirects]]
-  from = "/cloud/8.4.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true
 # Global redirect for latest software to point to latest software
