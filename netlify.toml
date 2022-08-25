@@ -136,6 +136,27 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
+
+# 7.1.1 redirects for third-party sw
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.1.1/_attachments/third-party.csv"
+  to = "https://docs.thoughtspot.com/software/7.1/_attachments/third-party.csv"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.1.1/_attachments/third-party-711.csv"
+  to = "https://docs.thoughtspot.com/software/7.1/_attachments/third-party-711.csv"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/7.1.1/_attachments/third-party-711cu1.csv"
+  to = "https://docs.thoughtspot.com/software/7.1/_attachments/third-party-711cu1.csv"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
 [[redirects]]
   from = "https://docs.thoughtspot.com/7.1.1/release/notes.html"
   to = "https://docs.thoughtspot.com/software/7.1/notes#new-7-1-1"
