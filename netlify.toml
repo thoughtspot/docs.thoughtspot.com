@@ -78,57 +78,109 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-# 7.2 to latest redirects - start
+# 8.4.1.sw to latest redirects - start
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/reference/keywords.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/reference/keywords.html"
   to = "https://docs.thoughtspot.com/software/latest/keywords"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/release/notes.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/release/notes.html"
   to = "https://docs.thoughtspot.com/software/latest/notes"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0"
+  from = "https://docs.thoughtspot.com/8.4.1.sw"
   to = "https://docs.thoughtspot.com/software/latest"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/release/downloads.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/release/downloads.html"
   to = "https://docs.thoughtspot.com/software/latest/downloads"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/release/help-center.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/release/help-center.html"
   to = "https://docs.thoughtspot.com/software/latest/help-center"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/admin/ts-cloud/authentication-local.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/admin/ts-cloud/authentication-local.html"
   to = "https://docs.thoughtspot.com/software/latest/admin-portal-authentication-local"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/admin/ts-cloud/authentication-integration.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/admin/ts-cloud/authentication-integration.html"
   to = "https://docs.thoughtspot.com/software/latest/saml"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/7.2.0/admin/setup/LDAP-config-AD.html"
+  from = "https://docs.thoughtspot.com/8.4.1.sw/admin/setup/LDAP-config-AD.html"
   to = "https://docs.thoughtspot.com/software/latest/ldap-config-ad"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-# 7.2 to latest redirects - end
+# 7.2.0 to 7.2 redirects - end
+
+# 7.2.0 to 7.2 redirects - start
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/reference/keywords.html"
+  to = "https://docs.thoughtspot.com/software/7.2/keywords"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/release/notes.html"
+  to = "https://docs.thoughtspot.com/software/7.2/notes"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0"
+  to = "https://docs.thoughtspot.com/software/7.2"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/release/downloads.html"
+  to = "https://docs.thoughtspot.com/software/7.2/downloads"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/release/help-center.html"
+  to = "https://docs.thoughtspot.com/software/7.2/help-center"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/admin/ts-cloud/authentication-local.html"
+  to = "https://docs.thoughtspot.com/software/7.2/admin-portal-authentication-local"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/admin/ts-cloud/authentication-integration.html"
+  to = "https://docs.thoughtspot.com/software/7.2/saml"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2.0/admin/setup/LDAP-config-AD.html"
+  to = "https://docs.thoughtspot.com/software/7.2/ldap-config-ad"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+# 7.2.0 to 7.2 redirects - end
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/"
@@ -3415,8 +3467,18 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 # Global redirect for latest software to point to latest software
 [[redirects]]
-  from = "/software/7.2/*"
+  from = "/software/8.4.1.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/software/8.4.0.sw/*"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/software/7.2.0.jan.sw/*"
+  to = "https://docs.thoughtspot.com/software/7.2/:splat"
   status = 301
   force = true
 [[redirects]]
@@ -3475,8 +3537,18 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
-  from = "/7.2.0.jan.sw/*"
+  from = "/8.4.1.sw/*"
   to = "/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/8.4.0.sw/*"
+  to = "/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/7.2.0.jan.sw/*"
+  to = "/software/7.2/:splat"
   status = 301
   force = true
 [[redirects]]
