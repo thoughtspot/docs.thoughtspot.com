@@ -11,7 +11,7 @@ content:
     branches: HEAD
     start_path: home
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
-  # Software docs branches
+  # Software docs branches 
     branches: ['8.8.0.sw']
     start_path: software/
 urls:
