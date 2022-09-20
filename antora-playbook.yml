@@ -1,6 +1,6 @@
 site:
-  title: ThoughtSpot Documentation
-  url: https://docs.thoughtspot.com
+  title: ThoughtSpot Beta Documentation
+  url: https://beta-docs-thoughtspot.netlify.app
   start_page: home::index.adoc
   keys:
     google_analytics: UA-44946579-2
@@ -11,17 +11,9 @@ content:
     branches: HEAD
     start_path: home
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
-  # Software docs branches
-    branches: ['6.0', '6.1', '6.2', '6.3', '7.0', '7.1', '7.2', '8.4.1.sw']
+  # Software docs branches 
+    branches: ['8.8.0.sw']
     start_path: software/
-  - url: git@github.com:thoughtspot/thoughtspot-docs.git
-  # Cloud docs branches
-    branches: ['8.5.0.cl', '8.6.0.cl']
-    start_path: cloud/
-  - url: git@github.com:thoughtspot/visual-embed-sdk.git
-  # dev docs branches
-    branches: ['7.1.1-sw-docs', '7.2-sw-docs']
-    start_path: docs/software
 urls:
   latest_version_segment_strategy: redirect:to
   latest_version_segment: latest
