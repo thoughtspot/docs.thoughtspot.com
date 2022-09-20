@@ -3415,6 +3415,11 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true
 # Global redirect for latest software to point to latest software
 [[redirects]]
+  from = "/software/8.4.1.sw/*"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
   from = "/7.1.0.aug.sw/*"
   to = "https://docs.thoughtspot.com/software/7.1/:splat"
   status = 301
