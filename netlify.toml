@@ -14,7 +14,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
-# 8.2.0.cl site-wide redirects
+# 8.2.0.cl site-wide redirectss
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.7.0.cl/*"
