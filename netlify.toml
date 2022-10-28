@@ -48,6 +48,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 
+  [[redirects]]
+    from = "https://docs.thoughtspot.com/7.2.1.CU1/*"
+    to = "https://docs.thoughtspot.com/software/7.2/:splat"
+    status = 301
+    force = true
+
 # 7.1.1.sw site-wide redirects
 
 [[redirects]]
