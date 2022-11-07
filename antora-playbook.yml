@@ -42,6 +42,7 @@ asciidoc:
     page-company: ThoughtSpot
     tabs: tabs
     support-url: https://community.thoughtspot.com/customers/s/contactsupport[ThoughtSpot Support^]
+    seekwell: SeekWell
     cl-subscription-agreement: https://www.thoughtspot.com/legal/thoughtspot-cloud-subscription-agreement[subscription agreement^]
   extensions:
   - ./lib/asciidoctor-performance-patch.js
