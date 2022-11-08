@@ -16,7 +16,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 # site-wide redirects
 
-[redirects]]
+[[redirects]]
   from = "https://docs.thoughtspot.com/software/8.4.1.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
@@ -27,6 +27,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true # COMMENT: global redirect for 8.8.0.cl to cl latest
+
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.2.0.cl/*"
   to = "https://docs.thoughtspot.com/cloud/latest/:splat"
