@@ -18,7 +18,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/seekwell"
-  to = "https://docs.thoughtspot.com/seekwell/latest"
+  to = "https://docs.thoughtspot.com/seekwell/latest/"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
