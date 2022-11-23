@@ -22,6 +22,10 @@ content:
   # dev docs branches
     branches: ['7.1.1-sw-docs', '7.2-sw-docs']
     start_path: docs/software
+  - url: git@github.com:thoughtspot/thoughtspot-docs.git
+    # Seekwell docs branches
+    branches: [ 'seekwell']
+    start_path: seekwell/
 urls:
   latest_version_segment_strategy: redirect:to
   latest_version_segment: latest
@@ -42,6 +46,7 @@ asciidoc:
     page-company: ThoughtSpot
     tabs: tabs
     support-url: https://community.thoughtspot.com/customers/s/contactsupport[ThoughtSpot Support^]
+    seekwell: SeekWell
     cl-subscription-agreement: https://www.thoughtspot.com/legal/thoughtspot-cloud-subscription-agreement[subscription agreement^]
   extensions:
   - ./lib/asciidoctor-performance-patch.js

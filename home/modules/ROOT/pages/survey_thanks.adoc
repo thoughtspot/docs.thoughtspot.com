@@ -1,4 +1,19 @@
+:page-layout: snippet
+
 ++++
+<style>
+.text {
+  color: black;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Optimo-Plain,sans-serif;
+  font-size: 20px;
+}
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
      <head>
@@ -9,7 +24,7 @@
          <title>Thanks!</title>
     </head>
     <body style="background-color:#ffffff;">
-        <span style="font-family:Lato; color: black; font-size:110%; display:inline-block; margin-left:140px; margin-top:80px">Thanks for your feedback!</span>
+<div class="text">Thanks for your feedback!</div>
     </body>
     </html>
 ++++
