@@ -23,6 +23,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
+  from = "https://docs.thoughtspot.com/software/8.8.0.sw/*"
+  to = "https://la-docs.thoughtspot.com/software/8.8.0.sw/:splat"
+  status = 301
+  force = true # COMMENT: global redirect for 8.8.0.sw to LA docs site
+
+[[redirects]]
   from = "https://docs.thoughtspot.com/software/8.4.1.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
