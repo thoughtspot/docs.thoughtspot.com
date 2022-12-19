@@ -14,6 +14,14 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
+# Algolia pendo search test redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/6.0/search-test.html"
+  to = "https://docs.thoughtspot.com/cloud/latest/search-test.html"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
 # site-wide redirects
 
 # 8.10.0.cl uprade page to 8.9.0.cl (until customer cluster upgrade)
