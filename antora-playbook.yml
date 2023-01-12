@@ -24,7 +24,7 @@ content:
     start_path: docs/software
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
     # Seekwell docs branches
-    branches: [ 'seekwell']
+    branches: ['seekwell']
     start_path: seekwell/
 urls:
   latest_version_segment_strategy: redirect:to
