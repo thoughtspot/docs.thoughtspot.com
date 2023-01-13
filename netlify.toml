@@ -27,8 +27,8 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # 8.10.0.cl uprade page to 8.9.0.cl (until customer cluster upgrade)
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/software/9.0.0.cl/*"
-  to = "https://la-docs.thoughtspot.com/software/latest/:splat"
+  from = "https://docs.thoughtspot.com/cloud/9.0.0.cl/*"
+  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true # COMMENT: global redirect for 8.8.0.sw to LA docs site
 
