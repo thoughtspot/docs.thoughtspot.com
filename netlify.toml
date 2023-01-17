@@ -14,6 +14,14 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
+# test rewrite for help
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/cloud/*"
+  to = "https://help-cloud-thoughtspot.netlify.app/cloud/:splat"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
 # Algolia pendo search test redirect
 
 [[redirects]]
