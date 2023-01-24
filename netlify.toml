@@ -65,22 +65,28 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true # COMMENT: global redirect for 8.8.0.sw to LA docs site
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/software/8.4.1.sw/*"
+  from = "https://docs.thoughtspot.com/software/8.8.1.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
-  force = true # COMMENT: global redirect for 8.4.1.sw to sw latest
+  force = true # COMMENT: global redirect for 8.8.1.sw to sw latest
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/8.4.1.sw/*"
+  to = "https://docs.thoughtspot.com/software/8.4.1.sw/:splat"
+  status = 301
+  force = true # COMMENT: global redirect for 8.4.1.sw to sw 8.4.1.sw
 
   [[redirects]]
     from = "https://docs.thoughtspot.com/software/8.4.1.sw.cu1/*"
-    to = "https://docs.thoughtspot.com/software/latest/:splat"
+    to = "https://docs.thoughtspot.com/software/8.4.1.sw/:splat"
     status = 301
-    force = true # COMMENT: global redirect for 8.4.1.sw.cu1 to sw latest
+    force = true # COMMENT: global redirect for 8.4.1.sw.cu1 to sw 8.4.1.sw
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/8.4.1.sw.CU1/*"
-  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  to = "https://docs.thoughtspot.com/software/8.4.1.sw/:splat"
   status = 301
-  force = true # COMMENT: global redirect for 8.4.1.sw.CU1 to sw latest
+  force = true # COMMENT: global redirect for 8.4.1.sw.CU1 to sw 8.4.1.sw
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.2.0.cl/*"
