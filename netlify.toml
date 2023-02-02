@@ -22,7 +22,15 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
-# Algolia pendo search test rewrite
+# Algolia pendo search test rewrite for cloud
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/software/*"
+  to = "https://help-software-thoughtspot.netlify.app/software/:splat"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+# Algolia pendo search test rewrite for cloud
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/sitemap-cloud.xml"
