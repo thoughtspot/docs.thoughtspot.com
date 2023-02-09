@@ -17,6 +17,26 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # test rewrite for help
 
 [[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/cloud/9.0.0.cl/"
+  to = "https://help-cloud-thoughtspot.netlify.app/cloud/9.0.0.cl/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/cloud/8.10.0.cl/"
+  to = "https://help-cloud-thoughtspot.netlify.app/cloud/8.10.0.cl/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/cloud/8.9.0.cl/"
+  to = "https://help-cloud-thoughtspot.netlify.app/cloud/8.9.0.cl/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+# Algolia pendo search test rewrite for cloud
+
+[[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/cloud/*"
   to = "https://help-cloud-thoughtspot.netlify.app/cloud/:splat"
   status = 200
