@@ -17,6 +17,24 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # test rewrite for help
 
 [[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/software/8.4.1.sw/"
+  to = "https://help-software-thoughtspot.netlify.app/software/8.4.1.sw/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw/"
+  to = "https://help-software-thoughtspot.netlify.app/software/8.8.1.sw/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/software/9.0.0.sw/"
+  to = "https://help-software-thoughtspot.netlify.app/software/9.0.0.sw/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/cloud/9.0.0.cl/"
   to = "https://help-cloud-thoughtspot.netlify.app/cloud/9.0.0.cl/index_help"
   status = 200
