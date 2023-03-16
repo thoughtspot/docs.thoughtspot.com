@@ -14,7 +14,13 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
-# test rewrite for help
+[[redirects]]
+  from = "https://docs.thoughtspot.com/8.4.1.sw.cu1/release/help-center"
+  to = "https://docs.thoughtspot.com/software/8.4.1.sw/help-center"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+# rewrites for help - start
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/software/8.4.1.sw/"
@@ -31,6 +37,12 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 [[redirects]]
     from = "https://docs.thoughtspot.com/ghyer95y3/software/9.0.0.sw/"
   to = "https://help-software-thoughtspot.netlify.app/software/9.0.0.sw/index_help"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/ghyer95y3/cloud/9.2.0.cl/"
+  to = "https://help-cloud-thoughtspot.netlify.app/cloud/9.2.0.cl/index_help"
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
@@ -91,6 +103,8 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true # COMMENT: ensure that we always redirect
 
 # Algolia pendo search test rewrite for sitemaps software
+
+# rewrites for help - end
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/6.0/search-test.html"
