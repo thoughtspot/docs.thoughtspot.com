@@ -828,6 +828,26 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true
 [[redirects]]
+  from = "https://docs.thoughtspot.com/8.8/data-integrate/dataflow/*"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/8.4/data-integrate/dataflow/*"
+  to = "https://docs.thoughtspot.com/software/8.4.1.sw/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/8.4/data-integrate/dataflow/*"
+  to = "https://docs.thoughtspot.com/software/8.4.1.sw/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://docs.thoughtspot.com/7.2/data-integrate/dataflow/*"
+  to = "https://docs.thoughtspot.com/software/7.2/:splat"
+  status = 301
+  force = true
+[[redirects]]
   from = "https://docs.thoughtspot.com/latest/data-integrate/embrace/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
