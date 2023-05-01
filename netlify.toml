@@ -23,22 +23,16 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # rewrites for help - start
 
 [[redirects]]
-   from = "https://docs.thoughtspot.com/software/8.8.1.sw.cu1/*"
-   to = "https://docs.thoughtspot.com/software/8.8.1.sw/:splat"
-   status = 301
-   force = true # COMMENT: global redirect for 8.8.1.sw.cu1 to sw 8.8.1.sw
+  from = "https://docs.thoughtspot.com/software/8.8.1.sw.cu1/*"
+  to = "https://docs.thoughtspot.com/software/8.8.1.sw/:splat"
+  status = 301
+  force = true # COMMENT: global redirect for 8.8.1.sw.cu1 to sw 8.8.1.sw
 
 [[redirects]]
- from = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw.cu1/"
- to = "https://help-software-thoughtspot.netlify.app/software/8.8.1.sw/index_help"
- status = 200
- force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-from = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw.cu1/"
-to = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw/"
-status = 301
-force = true # COMMENT: ensure that we always redirect
+  from = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw.cu1/"
+  to = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw/"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/software/8.4.1.sw/"
