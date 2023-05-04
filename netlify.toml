@@ -142,6 +142,15 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
+# confirmatiion email redirect
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/software/latest/welcome-intro.html"
+  to = "https://docs.thoughtspot.com/software/latest/deployment-sw"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
+
 # site-wide redirects
 
 # 8.10.0.cl uprade page to 8.9.0.cl (until customer cluster upgrade)
