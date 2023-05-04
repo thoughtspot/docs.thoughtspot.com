@@ -142,7 +142,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-# confirmatiion email redirect
+# confirmation email redirect
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/latest/welcome-intro.html"
@@ -157,18 +157,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/9.2.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.1.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.0.0.cl/*"
   to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true # COMMENT: ensure that we always redirect
