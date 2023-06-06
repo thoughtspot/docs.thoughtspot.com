@@ -47,6 +47,41 @@ b, dt, strong, th {
     padding-right: 25px;
 }
 
+td {
+    font-size: 13px;
+    padding: 10px;
+}
+
+.modal-inner {
+    top: 20px !important;
+    border-radius: 8px !important;
+    max-width: 90% !important;
+    max-height: 85% !important;
+}
+
+.btn-outline-primary {
+    transition: 0.3s background ease-in-out !important;
+    animation: fadein linear 0s !important;
+    -webkit-animation: fadein 0s linear !important;
+    -moz-animation: fadein linear 0s !important;
+    -o-animation: fadein linear 0s !important;
+    -ms-animation: fadein linear 0s !important;
+}
+
+.button-box {
+    display: inline-block;
+    margin: 0 auto !important;
+    /* margin-top: 25px; */
+    /* margin-bottom: 55px; */
+    /* padding-top: 15px; */
+    font-size: 14px;
+    font-weight: 400;
+    position: relative !important;
+    z-index: 1;
+    animation: fadein 0s linear !important;
+    -webkit-animation: fadein 0s linear !important;
+}
+
 </style>
 ++++
 
@@ -85,4 +120,128 @@ b, dt, strong, th {
     <p>Sync your data warehouse with all your favorite business apps and automate your customer data workflows faster than ever.</p></span>
     </a></div>
  </div>
+ <br>
+ <div class="box-button-columns">
+ <div class="button-box"><a class="btn btn-outline-primary btn-sm" href="#modal-1" role="button" data-modal-open>Compare ThoughtSpot Cloud and Software features</a></div>
+     </div>
+      <div id="modal-1" style="display:none">
+      <style>
+      table.matrix {
+          border-collapse: separate;
+          border-spacing: 0.1rem;
+          /* border-radius: 5px; */
+          width: 94%;
+          /* -webkit-box-shadow: 0 8px 25px rgb(0 0 0 / 20%); */
+      }
+
+      td {
+          font-size: 13px;
+      }
+
+      </style>
+      <table class="matrix" width="70%" border="0" bordercolor="#4e55fd" align="center" font-family="Optimo-Plain,sans-serif;">
+        <tbody>
+          <tr>
+            <th scope="col" width="44%" style="color:black;padding:10px;"></th>
+            <th scope="col" width="28%" style="color:white;padding:10px;font-family:Optimo-Plain,sans-serif;" bgcolor="#4e55fd" align="left">ThoughtSpot Software</th>
+            <th scope="col" width="28%" style="color:white;padding:10px;font-family:Optimo-Plain,sans-serif;" bgcolor="#06bf7f" align="left">ThoughtSpot Cloud</th>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Who installs and manages&nbsp;</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Customer</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Falcon in-memory database&nbsp;</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Cluster scale&nbsp;</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Multi-node clusters</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Single node or 3 node for HA</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Connect to cloud data warehouses</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Search Data</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">SpotIQ Auto Analyze&nbsp;</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Visualize <br>
+      		  (Answers, Liveboards, follow and related features)</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">&nbsp;Mobile app</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Data workspace</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes*</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">SpotApps</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes*</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">KPI charts&nbsp;</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Everywhere (embedded)&nbsp;</th>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes**</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Monitor, anomaly detection, contextual explain change</th>
+            <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Sage: AI/GPT assisted features</th>
+            <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Eureka (search Answers)</th>
+            <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+            <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Sync (SeekWell Destinations)&nbsp;</th>
+            <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
+            <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
+          </tr>
+          <tr>
+          <td colspan="3">* SpotApps must be manually installed in Software.</td>
+              </tr>
+      <tr>
+      <td colspan="3">** Available as an option for Software starting with the 8.4.x.sw release.</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+          </div>
+      <div class="modal">
+        <div class="modal-inner">
+          <a data-modal-close>&times;</a>
+          <div class="modal-content"></div>
+        </div>
+      </div>
 ++++
