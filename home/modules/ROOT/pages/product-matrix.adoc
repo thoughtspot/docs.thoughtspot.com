@@ -94,7 +94,7 @@ td {
       <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
     </tr>
     <tr>
-      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Sage: AI/GPT assisted features</th>
+      <th scope="row" align="right" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">ThoughtSpot Sage: AI/GPT-assisted features</th>
       <td bgcolor="#e0b5b3" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">No</td>
       <td bgcolor="#d4e5d5" style="color:black;padding:10px;font-family:Optimo-Plain,sans-serif;">Yes</td>
     </tr>
