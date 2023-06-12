@@ -12,7 +12,7 @@ content:
     start_path: home
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
   # Software docs branches
-    branches: ['6.0', '6.1', '6.2', '6.3', '7.0', '7.1', '7.2', '8.4.1.sw', '8.8.1.sw']
+    branches: ['6.0', '6.1', '6.2', '6.3', '7.0', '7.1', '7.2', '8.4.1.sw', '8.8.1.sw', '9.0.1.sw']
     start_path: software/
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
   # Cloud docs branches
