@@ -253,7 +253,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/9.2.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
+  to = "https://docs.thoughtspot.com/cloud/9.2.0.cl/:splat"
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
