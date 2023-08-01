@@ -246,7 +246,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # 8.10.0.cl uprade page to 8.9.0.cl (until customer cluster upgrade)
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.3.0.cl/*"
+  from = "https://docs.thoughtspot.com/cloud/9.2.0.cl/*"
   to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true # COMMENT: ensure that we always redirect
