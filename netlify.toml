@@ -20,6 +20,16 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
+# rewrite to publish older hidden doc version - begin
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/cloud/8.10.0.cl/*"
+  to = "https://8-10-0-cl-docs-archive.netlify.app/cloud/8.10.0.cl/:splat"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+# rewrite to publish older hidden doc version - end
+
 # rewrites for help - start
 
 [[redirects]]
@@ -27,6 +37,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   to = "https://docs.thoughtspot.com/software/8.8.1.sw/:splat"
   status = 301
   force = true # COMMENT: global redirect for 8.8.1.sw.cu1 to sw 8.8.1.sw
+
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw.cu1/"
