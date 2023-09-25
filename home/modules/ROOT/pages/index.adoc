@@ -80,8 +80,14 @@ td {
     z-index: 1;
     animation: fadein 0s linear !important;
     -webkit-animation: fadein 0s linear !important;
+    border: 5px;
+    display: flex;
+    justify-content: center;
 }
 
+.btn-outline-primary {
+    margin-bottom: 25px !important;
+}
 </style>
 ++++
 
@@ -121,8 +127,9 @@ td {
     </a></div>
  </div>
  <br>
- <div class="box-button-columns">
+ <div class="button-box-columns">
  <div class="button-box"><a class="btn btn-outline-primary btn-sm" href="#modal-1" role="button" data-modal-open>Compare ThoughtSpot Cloud and Software features</a></div>
+<div class="button-box"><a class="btn btn-outline-primary btn-sm" href="https://mode.com/help/" target="_blank" role="button">Mode documentation</a></div>
      </div>
       <div id="modal-1" style="display:none">
       <style>
@@ -244,4 +251,5 @@ td {
           <div class="modal-content"></div>
         </div>
       </div>
+
 ++++
