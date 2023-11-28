@@ -17,12 +17,6 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 # redirect for home of sw and cloud docs
 
 [[redirects]]
-  from = "https://cloud-docs.thoughtspot.com/9.7.0.cl/"
-  to = "https://docs.thoughtspot.com/cloud/latest/"
-  status = 301
-  force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
-
-[[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw.cu2?pendo=1"
   to = "https://docs.thoughtspot.com/ghyer95y3/software/8.8.1.sw?pendo=1"
   status = 301
@@ -30,7 +24,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 [[redirects]]
   from = "https://cloud-docs.thoughtspot.com/9.7.0.cl/release/notes"
-  to = "https://docs.thoughtspot.com/cloud/latest/notes"
+  to = "https://docs.thoughtspot.com/cloud/9.7.0.cl/notes"
   status = 301
   force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
