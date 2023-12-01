@@ -40,11 +40,11 @@ force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest 
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-# rewrite to publish older hidden doc version - begin
+# rewrite to publish older hidden doc version for Candian Tire - begin
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.10.0.cl/*"
-  to = "https://8-10-0-cl-docs-archive.netlify.app/cloud/8.10.0.cl/:splat"
+  from = "https://docs.thoughtspot.com/cloud/9.3.0.cl/*"
+  to = "https://9-3-0-cl-docs-archive.netlify.app/cloud/9.3.0.cl/:splat"
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
