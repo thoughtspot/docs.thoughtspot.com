@@ -48,6 +48,12 @@ force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest 
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
+[[redirects]]
+  from = "https://docs.thoughtspot.com/9.3.0.cl/release/help-center"
+  to = "https://docs.thoughtspot.com/cloud/9.3.0.cl/help-center"
+  status = 301
+  force = true # COMMENT: ensure that we always redirect
+
 # rewrite to publish older hidden doc version - end
 
 # rewrite to publish gartner at hidden doc version - begin
@@ -288,12 +294,6 @@ force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/9.2.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.3.0.cl/*"
   to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
   force = true # COMMENT: ensure that we always redirect
