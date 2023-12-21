@@ -4,8 +4,6 @@ site:
   start_page: home::index.adoc
   keys:
     google_analytics: UA-44946579-2
-git:
-  read_concurrency: 1
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
