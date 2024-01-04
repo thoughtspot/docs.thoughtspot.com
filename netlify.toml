@@ -396,12 +396,6 @@ force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
   force = true # COMMENT: global redirect for 8.4.1.sw.CU1 to sw 8.4.1.sw
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.2.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.3.0.cl/*"
   to = "https://docs.thoughtspot.com/cloud/latest/:splat"
   status = 301
