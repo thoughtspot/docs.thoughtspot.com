@@ -482,6 +482,12 @@ force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
   force = true # COMMENT: global redirect for 9.5.0.sw.cu1 customize help to sw latest
 
 [[redirects]]
+  from = "https://docs.thoughtspot.com/software/latest/admin/ts-cloud/customize-help.html"
+  to = "https://docs.thoughtspot.com/software/latest/admin-portal-customize-help"
+  status = 301
+  force = true # COMMENT: global redirect for 9.5.0.sw.cu1 customize help to sw latest
+
+[[redirects]]
   from = "https://docs.thoughtspot.com/software/9.0.1.sw/admin/ts-cloud/customize-help.html"
   to = "https://docs.thoughtspot.com/software/9.0.1.sw/admin-portal-customize-help"
   status = 301
