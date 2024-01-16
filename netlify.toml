@@ -312,10 +312,10 @@ force = true # COMMENT: ensure that we always redirect
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-# redirect for custom sorting in 9.8.0.cl
+# redirect for EA custom sorting in 9.8.0.cl
 
 [[redirects]]
-from = "https://docs.thoughtspot.com/cloud/latest/customSorting"
+from = "https://docs.thoughtspot.com/cloud/9.8.0.cl/customSorting"
 to = "https://docs.thoughtspot.com/cloud/latest/worksheet-create"
 status = 301
 force = true # COMMENT: ensure that we always redirect
