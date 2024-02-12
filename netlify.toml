@@ -679,12 +679,6 @@ force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/software/7.1.1/_attachments/third-party-711cu1.csv"
-  to = "https://docs.thoughtspot.com/software/7.1/_attachments/third-party-711cu1.csv"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
   from = "https://docs.thoughtspot.com/7.1.1/release/notes.html"
   to = "https://docs.thoughtspot.com/software/7.1/notes#new-7-1-1"
   status = 301
