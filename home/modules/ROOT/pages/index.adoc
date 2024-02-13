@@ -111,7 +111,7 @@ td {
     </h2>
     <p>Deploy and manage ThoughtSpot in your own private cloud.</p>
     </a></div>
-  <div class="box-button"><a href="https://docs.thoughtspot.com/visual-embed-sdk/release/en/?pageid=introduction" class="panel-2">
+  <div class="box-button"><a href="https://developers.thoughtspot.com/docs/" class="panel-2">
       <span><img src="_images/developer.png" id="developer-icon">
     <h2>
       Developer
