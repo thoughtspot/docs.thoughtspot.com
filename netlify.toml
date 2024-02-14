@@ -63,34 +63,34 @@ force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest 
 
 # Gilead 9.7.0.cl redirects end
 
-# Gilead 9.8.0.cl redirects start
+# Gilead 9.8.0.cl redirects start - update to newest cloud version with each release
 
 [[redirects]]
-from = "https://cloud-docs.thoughtspot.com/9.8.0.cl/release/notes.html"
-to = "https://docs.thoughtspot.com/cloud/9.8.0.cl/notes"
+from = "https://cloud-docs.thoughtspot.com/9.10.0.cl/release/notes.html"
+to = "https://docs.thoughtspot.com/cloud/9.10.0.cl/notes"
 status = 301
 force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
 [[redirects]]
-from = "https://cloud-docs.thoughtspot.com/9.8.0.cl/reference/keywords"
-to = "https://docs.thoughtspot.com/cloud/9.8.0.cl/keywords"
+from = "https://cloud-docs.thoughtspot.com/9.10.0.cl/reference/keywords"
+to = "https://docs.thoughtspot.com/cloud/9.10.0.cl/keywords"
 status = 301
 force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
 [[redirects]]
-from = "https://cloud-docs.thoughtspot.com/9.8.0.cl/reference/keywords.html"
-to = "https://docs.thoughtspot.com/cloud/9.8.0.cl/keywords"
+from = "https://cloud-docs.thoughtspot.com/9.10.0.cl/reference/keywords.html"
+to = "https://docs.thoughtspot.com/cloud/9.10.0.cl/keywords"
 status = 301
 force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
 
 [[redirects]]
-from = "https://cloud-docs.thoughtspot.com/9.8.0.cl/*"
-to = "https://docs.thoughtspot.com/cloud/9.8.0.cl/:splat"
+from = "https://cloud-docs.thoughtspot.com/9.10.0.cl/*"
+to = "https://docs.thoughtspot.com/cloud/9.10.0.cl/:splat"
 status = 301
 force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
-# Gilead 9.8.0.cl redirects end
+# Gilead 9.8.0.cl redirects end - update to newest cloud version with each release
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/8.4.1.sw.cu1/release/help-center"
