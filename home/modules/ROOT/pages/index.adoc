@@ -90,8 +90,9 @@ td {
 }
 
 .mode-image {
-    width: 100px !important;
-    margin-bottom: -15px !important;
+    width: 80px !important;
+    margin-top: -15px !important;
+    margin-bottom: 1px !important;
 }
 </style>
 </style>
