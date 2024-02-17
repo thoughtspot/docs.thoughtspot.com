@@ -88,6 +88,12 @@ td {
 .btn-outline-primary {
     margin-bottom: 25px !important;
 }
+
+.mode-image {
+    width: 100px !important;
+    margin-bottom: -15px !important;
+}
+</style>
 </style>
 ++++
 
@@ -119,7 +125,7 @@ td {
     <p>Build interactive data apps with a low-code developer-friendly platform.</p></span>
     </a></div>
   <div class="box-button"><a href="https://mode.com/help/" class="panel-2">
-      <span><img src="_images/mode.png" id="mode-icon">
+      <span><img class="mode-image" src="_images/mode.png" id="mode-icon">
     <h2>
       Mode
     </h2>
