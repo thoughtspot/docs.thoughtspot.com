@@ -126,9 +126,6 @@ td {
     </a></div>
   <div class="box-button"><a href="https://mode.com/help/" class="panel-2">
       <span><img class="mode-image" src="_images/mode.png" id="mode-icon">
-    <h2>
-      Mode
-    </h2>
     <p>Perform complex, ad hoc analysis and empower simple self-service reporting, all on the same platform.</p></span>
     </a></div>
     <div class="box-button"><a href="https://docs.thoughtspot.com/seekwell/latest" class="panel-2">
