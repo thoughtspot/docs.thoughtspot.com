@@ -118,18 +118,24 @@ td {
     </h2>
     <p>Build interactive data apps with a low-code developer-friendly platform.</p></span>
     </a></div>
-  <div class="box-button"><a href="https://docs.thoughtspot.com/seekwell/latest" class="panel-2">
-      <span><img src="_images/just-logo-black-40px.png" id="developer-icon">
+  <div class="box-button"><a href="https://mode.com/help/" class="panel-2">
+      <span><img src="_images/mode.png" id="mode-icon">
     <h2>
-      SeekWell
+      Mode
     </h2>
-    <p>Sync your data warehouse with all your favorite business apps and automate your customer data workflows faster than ever.</p></span>
+    <p>Perform complex, ad hoc analysis and empower simple self-service reporting, all on the same platform.</p></span>
     </a></div>
+    <div class="box-button"><a href="https://docs.thoughtspot.com/seekwell/latest" class="panel-2">
+          <span><img src="_images/just-logo-black-40px.png" id="seekwell-icon">
+        <h2>
+          SeekWell
+        </h2>
+        <p>Sync your data warehouse with all your favorite business apps and automate your customer data workflows faster than ever.</p></span>
+        </a></div>
  </div>
  <br>
  <div class="button-box-columns">
  <div class="button-box"><a class="btn btn-outline-primary btn-sm" href="#modal-1" role="button" data-modal-open>Compare ThoughtSpot Cloud and Software features</a></div>
-<div class="button-box"><a class="btn btn-outline-primary btn-sm" href="https://mode.com/help/" target="_blank" role="button">Mode documentation</a></div>
      </div>
       <div id="modal-1" style="display:none">
       <style>
