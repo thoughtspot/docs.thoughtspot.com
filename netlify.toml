@@ -418,12 +418,6 @@ force = true # COMMENT: ensure that we always redirect
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/seekwell"
-  to = "https://docs.thoughtspot.com/seekwell/latest/"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
   from = "https://docs.thoughtspot.com/software/8.8.0.sw/*"
   to = "https://la-docs.thoughtspot.com/software/8.8.0.sw/:splat"
   status = 301
