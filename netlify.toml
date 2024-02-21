@@ -400,18 +400,6 @@ force = true # COMMENT: ensure that we always redirect
 # 8.10.0.cl uprade page to 8.9.0.cl (until customer cluster upgrade)
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.2.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.4.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.10.0.cl/upgrade"
   to = "https://docs.thoughtspot.com/cloud/latest/upgrade"
   status = 301
@@ -464,18 +452,6 @@ force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
   to = "https://docs.thoughtspot.com/software/8.4.1.sw/:splat"
   status = 301
   force = true # COMMENT: global redirect for 8.4.1.sw.CU1 to sw 8.4.1.sw
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.3.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/8.4.0.cl/*"
-  to = "https://docs.thoughtspot.com/cloud/latest/:splat"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/cloud/8.5.0.cl/*"
