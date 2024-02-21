@@ -513,10 +513,4 @@ force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
   status = 301
   force = true # COMMENT: ensure that we always redirect
 
-[[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.7.0.cl/index"
-  to = "https://docs.thoughtspot.com/cloud/9.7.0.cl/index.html"
-  status = 200
-  force = true # COMMENT: ensure that we always redirect
-
 
