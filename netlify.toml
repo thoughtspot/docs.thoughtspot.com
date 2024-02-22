@@ -1,6 +1,6 @@
 [build.environment]
 CI = "false"
-NODE_VERSION = "10"
+NODE_VERSION = "16"
 NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
