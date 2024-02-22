@@ -4,8 +4,6 @@ NODE_VERSION = "10"
 NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
-# all redirects for site
-
 [build]
 command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
 
@@ -14,6 +12,9 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   for = "/*"
   [headers.values]
     Content-Security-Policy = "default-src * 'unsafe-eval' 'unsafe-inline' data: filesystem: about: blob:;"
+
+# all redirects for site
+
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
