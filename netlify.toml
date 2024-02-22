@@ -1,6 +1,6 @@
 [build.environment]
-CI = "false"
-NODE_VERSION = "16"
+CI = "true"
+NODE_VERSION = "10"
 NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
@@ -8,6 +8,7 @@ ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
 [build]
 command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
+
 # security policies
 [[headers]]
   for = "/*"
@@ -412,10 +413,10 @@ force = true # COMMENT: ensure that we always redirect
   force = true # COMMENT: global redirect for 9.5.0.sw to sw latest
 
 [[redirects]]
-from = "https://docs.thoughtspot.com/software/9.5.0.sw.cu1/*"
-to = "https://docs.thoughtspot.com/software/latest/:splat"
-status = 301
-force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
+  from = "https://docs.thoughtspot.com/software/9.5.0.sw.cu1/*"
+  to = "https://docs.thoughtspot.com/software/latest/:splat"
+  status = 301
+  force = true # COMMENT: global redirect for 9.5.0.sw.cu1 to sw latest
 
 [[redirects]]
    from = "https://docs.thoughtspot.com/software/9.0.1.sw.cu1/*"
