@@ -373,12 +373,6 @@ force = true # COMMENT: ensure that we always redirect
 
 # rewrites for help - end
 
-[[redirects]]
-  from = "https://docs.thoughtspot.com/software/6.0/search-test.html"
-  to = "https://docs.thoughtspot.com/cloud/latest/search-test.html"
-  status = 301
-  force = true # COMMENT: ensure that we always redirect
-
 # confirmation email redirect
 
 [[redirects]]
