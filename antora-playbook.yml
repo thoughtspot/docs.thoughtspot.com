@@ -49,7 +49,7 @@ asciidoc:
     seekwell: SeekWell
     cl-subscription-agreement: https://www.thoughtspot.com/legal/thoughtspot-cloud-subscription-agreement[subscription agreement^]
   extensions:
-  - ./lib/asciidoctor-performance-patch.js
+ # - ./lib/asciidoctor-performance-patch.js
 output:
   clean: true
   dir: build/
