@@ -6,7 +6,7 @@ NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
 [build]
-command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
+command = "node_modules/.bin/antora npx antora-playbook.yml --stacktrace --log-format=pretty"
 
 # security policies
 [[headers]]
