@@ -6,8 +6,8 @@ ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
 # all redirects for site
 
-[build]
-command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
+#[build]
+#command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-format=pretty"
 # security policies
 [[headers]]
   for = "/*"
