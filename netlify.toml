@@ -1,7 +1,7 @@
 [build.environment]
 CI = "true"
 NODE_VERSION = "16"
-NODE_OPTIONS="--max-old-space-size=4096"
+NODE_OPTIONS="--max-old-space-size=8096"
 NPM_CONFIG_OPTIONAL = "false"
 ANTORA_CACHE_DIR = "node_modules/.cache/antora"
 
