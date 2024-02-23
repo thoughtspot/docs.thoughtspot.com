@@ -16,6 +16,14 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 # all redirects for site
 
+# redirect for product connectivity check start
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/blanknetworkconnect.png"
+  to = "https://docs.thoughtspot.com/software/latest/_images/blanknetworkconnect.png"
+  status = 301
+  force = true
+
 # redirect any netlify address url to real address
 # redirect for home of sw and cloud docs
 
