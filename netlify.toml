@@ -16,6 +16,14 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
 
 # all redirects for site
 
+# redirect for keyword button in product
+
+[[redirects]]
+  from = "https://docs.thoughtspot.com/latest/reference/keywords"
+  to = "https://docs.thoughtspot.com/cloud/latest/reference/keywords"
+  status = 301
+  force = true
+
 # redirect for product connectivity check start
 
 [[redirects]]
