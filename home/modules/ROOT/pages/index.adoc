@@ -59,36 +59,6 @@ td {
     max-height: 85% !important;
 }
 
-.btn-outline-primary {
-    transition: 0.3s background ease-in-out !important;
-    animation: fadein linear 0s !important;
-    -webkit-animation: fadein 0s linear !important;
-    -moz-animation: fadein linear 0s !important;
-    -o-animation: fadein linear 0s !important;
-    -ms-animation: fadein linear 0s !important;
-}
-
-.button-box {
-    display: inline-block;
-    margin: 0 auto !important;
-    /* margin-top: 25px; */
-    /* margin-bottom: 55px; */
-    /* padding-top: 15px; */
-    font-size: 14px;
-    font-weight: 400;
-    position: relative !important;
-    z-index: 1;
-    animation: fadein 0s linear !important;
-    -webkit-animation: fadein 0s linear !important;
-    border: 5px;
-    display: flex;
-    justify-content: center;
-}
-
-.btn-outline-primary {
-    margin-bottom: 25px !important;
-}
-
 .mode-image {
     width: 80px !important;
     margin-top: -15px !important;
