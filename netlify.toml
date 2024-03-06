@@ -72,6 +72,12 @@ to = "https://docs.thoughtspot.com/cloud/9.7.0.cl/index"
 status = 301
 force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
+[[redirects]]
+  from = "https://cloud-docs.thoughtspot.com/9.10.0.cl/"
+  to = "https://docs.thoughtspot.com/cloud/9.10.0.cl"
+  status = 301
+  force = true # COMMENT: redirect for 9.10.0.cl old doc site url to 9.10.0.cl cloud
+
 # Gilead 9.7.0.cl redirects end
 
 # Gilead 9.8.0.cl redirects start - update to newest cloud version with each release
