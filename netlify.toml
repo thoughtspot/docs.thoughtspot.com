@@ -34,7 +34,7 @@ command = "node_modules/.bin/antora antora-playbook.yml --stacktrace --log-forma
   force = true # COMMENT: global redirect for 9.7.0.cl old doc site url to latest cloud
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/cloud/9.10.5.cl/notes"
+  from = "https://docs.thoughtspot.com/cloud/9.10.5.cl/notes.html"
   to = "https://docs.thoughtspot.com/cloud/9.10.0.cl/notes"
   status = 301
   force = true # COMMENT: redirect 9.10.5.cl release notes to 9.10.0.cl until prod cluster upgradeds
