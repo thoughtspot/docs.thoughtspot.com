@@ -244,7 +244,7 @@ force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/ghyer95y3/cloud/9.10.5.cl/"
-  to = "https://help-cloud-thoughtspot.netlify.app/cloud/9.10.5.cl/index_help"
+  to = "https://help-cloud-thoughtspot.netlify.app/cloud/9.11.0.cl/index_help"
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
