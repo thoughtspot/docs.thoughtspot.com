@@ -16,7 +16,7 @@ content:
     start_path: software/
   - url: git@github.com:thoughtspot/thoughtspot-docs.git
   # Cloud docs branches
-    branches: ['9.6.0.cl', '9.7.0.cl', '9.8.0.cl', '9.10.0.cl', '9.11.0.cl']
+    branches: ['9.6.0.cl', '9.7.0.cl', '9.8.0.cl', '9.10.0.cl', '911.0.cl']
     start_path: cloud/
   - url: git@github.com:thoughtspot/visual-embed-sdk.git
   # dev docs branches
