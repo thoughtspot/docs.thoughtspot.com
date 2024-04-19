@@ -362,10 +362,10 @@ force = true # COMMENT: ensure that we always redirect
   force = true # COMMENT: global redirect for 8.8.0.sw to LA docs site
 
 [[redirects]]
-  from = "https://docs.thoughtspot.com/software/9.5.0.sw/*"
+  from = "https://docs.thoughtspot.com/software/9.8.0.sw/*"
   to = "https://docs.thoughtspot.com/software/latest/:splat"
   status = 301
-  force = true # COMMENT: global redirect for 9.5.0.sw to sw latest
+  force = true # COMMENT: global redirect for 9.8.0.sw to sw latest
 
 [[redirects]]
   from = "https://docs.thoughtspot.com/software/9.5.0.sw.cu1/*"
