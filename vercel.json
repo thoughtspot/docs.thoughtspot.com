@@ -279,5 +279,16 @@
       "source": "/cloud/9.9.0.cl/:path*",
       "destination": "https://ts-9-9-0-cl.netlify.app/cloud/9.9.0.cl/:path*",
       "statusCode": 200 }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src * 'unsafe-eval' 'unsafe-inline' data: filesystem: about: blob:;"
+        }
+      ]
+    }
   ]
 }
