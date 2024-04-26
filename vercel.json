@@ -248,6 +248,10 @@
       "destination": "https://help-cloud.vercel.app/cloud/9.12.0.cl/index_help/",
       "statusCode": 200 },
     {
+      "source": "/ghyer95y3/cloud/9.12.0.cl/:path*",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.0.cl/:path*",
+      "statusCode": 200 },
+    {
       "source": "/ghyer95y3/cloud/9.12.5.cl/",
       "destination": "https://help-cloud.vercel.app/cloud/9.12.5.cl/index_help",
       "statusCode": 200 },
