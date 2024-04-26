@@ -244,8 +244,8 @@
       "destination": "https://help-cloud.vercel.app/cloud/9.10.5.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.12.0.cl/",
-      "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.12.0.cl/index_help",
+      "source": "/ghyer95y3/cloud/9.12.0.cl/:path*",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.0.cl/:path*",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/9.12.5.cl/",
@@ -278,6 +278,14 @@
     {
       "source": "/cloud/9.9.0.cl/:path*",
       "destination": "https://ts-9-9-0-cl.netlify.app/cloud/9.9.0.cl/:path*",
+      "statusCode": 200 },
+    {
+      "source": "https://docs.thoughtspot.com/ghyer95y3/cloud/:path*",
+      "destination": "https://help-cloud.vercel.app/cloud/:path*",
+      "statusCode": 200 },
+    {
+      "source": "https://docs.thoughtspot.com/ghyer95y3/software/:path*",
+      "destination": "https://help-software.vercel.app/software/:path*",
       "statusCode": 200 }
   ],
   "headers": [
