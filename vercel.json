@@ -256,7 +256,7 @@
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.12.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/cloud/9.12.0.cl/(?*.)pendo=1",
+      "source": "/cloud/9.12.0.cl/\\?pendo=1",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.12.0.cl/index_help",
       "statusCode": 200 },
     {
