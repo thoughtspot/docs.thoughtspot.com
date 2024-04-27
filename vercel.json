@@ -156,119 +156,115 @@
   ],
   "rewrites": [
     {
-      "source": "/ghyer95y3/software/8.4.1.sw/",
+      "source": "/ghyer95y3/software/8.4.1.sw",
       "destination": "https://help-software-thoughtspot.netlify.app/software/8.4.1.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/8.4.1.sw.cu1/",
+      "source": "/ghyer95y3/software/8.4.1.sw.cu1",
       "destination": "https://help-software-thoughtspot.netlify.app/software/8.4.1.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/8.8.1.sw/",
+      "source": "/ghyer95y3/software/8.8.1.sw",
       "destination": "https://help-software-thoughtspot.netlify.app/software/8.8.1.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/9.0.1.sw/",
+      "source": "/ghyer95y3/software/9.0.1.sw",
       "destination": "https://help-software-thoughtspot.netlify.app/software/9.0.1.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/9.5.0.sw/",
+      "source": "/ghyer95y3/software/9.5.0.sw",
       "destination": "https://help-software-thoughtspot.netlify.app/software/9.5.0.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/9.8.0.sw/",
+      "source": "/ghyer95y3/software/9.8.0.sw",
       "destination": "https://help-software-thoughtspot.netlify.app/software/9.8.0.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/10.0.0.sw/",
+      "source": "/ghyer95y3/software/10.0.0.sw",
       "destination": "https://help-software-thoughtspot.netlify.app/software/10.0.0.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/10.5.0.sw/",
+      "source": "/ghyer95y3/software/10.5.0.sw",
       "destination": "https://help-cloud-thoughtspot.netlify.app/software/10.5.0.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/software/11.0.0.sw/",
+      "source": "/ghyer95y3/software/11.0.0.sw",
       "destination": "https://help-cloud-thoughtspot.netlify.app/software/11.0.0.sw/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/8.9.0.cl/",
+      "source": "/ghyer95y3/cloud/8.9.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/8.9.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/8.10.0.cl/",
+      "source": "/ghyer95y3/cloud/8.10.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/8.10.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.0.0.cl/",
+      "source": "/ghyer95y3/cloud/9.0.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.0.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.1.0.cl/",
+      "source": "/ghyer95y3/cloud/9.1.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.1.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.2.0.cl/",
+      "source": "/ghyer95y3/cloud/9.2.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.2.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.3.0.cl/",
+      "source": "/ghyer95y3/cloud/9.3.0.cl",
       "destination": "https://help-cloud.vercel.app/cloud/9.3.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.4.0.cl/",
+      "source": "/ghyer95y3/cloud/9.4.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.4.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.5.0.cl/",
+      "source": "/ghyer95y3/cloud/9.5.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.5.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.6.0.cl/",
+      "source": "/ghyer95y3/cloud/9.6.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.6.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.7.0.cl/",
+      "source": "/ghyer95y3/cloud/9.7.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.7.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.8.0.cl/",
+      "source": "/ghyer95y3/cloud/9.8.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.8.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.9.0.cl/",
+      "source": "/ghyer95y3/cloud/9.9.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.9.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.10.0.cl/",
+      "source": "/ghyer95y3/cloud/9.10.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.10.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.10.5.cl/",
+      "source": "/ghyer95y3/cloud/9.10.5.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.10.5.cl/index_help",
-      "statusCode": 200 },
-    {
-      "source": "/ghyer95y3/cloud/9.12.0.cl/",
-      "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.12.0.cl/index_help",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/9.12.0.cl",
       "destination": "https://help-cloud-thoughtspot.netlify.app/cloud/9.12.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/9.12.5.cl/",
+      "source": "/ghyer95y3/cloud/9.12.5.cl",
       "destination": "https://help-cloud.vercel.app/cloud/9.12.5.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/10.0.0.cl/",
+      "source": "/ghyer95y3/cloud/10.0.0.cl",
       "destination": "https://help-cloud.vercel.app/cloud/10.0.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/10.1.0.cl/",
+      "source": "/ghyer95y3/cloud/10.1.0.cl",
       "destination": "https://help-cloud.vercel.app/cloud/10.1.0.cl/index_help",
       "statusCode": 200 },
     {
-      "source": "/ghyer95y3/cloud/10.2.0.cl/",
+      "source": "/ghyer95y3/cloud/10.2.0.cl",
       "destination": "https://help-cloud.vercel.app/cloud/10.2.0.cl/index_help",
       "statusCode": 200 },
     {
