@@ -18,10 +18,6 @@
       "destination": "/cloud/9.10.0.cl/",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.0.cl/notes.html",
-      "destination": "https://docs.thoughtspot.com/cloud/9.10.0.cl/notes",
-      "statusCode": 301 },
-    {
       "source": "/cloud/9.8.0.cl",
       "destination": "/cloud/9.8.0.cl/",
       "statusCode": 301 },
@@ -94,7 +90,7 @@
       "destination": "/software/latest/_images/blanknetworkconnect.png",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.0.cl/notes.html",
+      "source": "/cloud/9.12.0.cl/notes",
       "destination": "/cloud/latest/notes",
       "statusCode": 301 },
     {
