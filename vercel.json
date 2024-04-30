@@ -281,7 +281,7 @@
       "statusCode": 200 },
     {
       "source": "/cloud/9.9.0.cl/:path*",
-      "destination": "https://ts-9-9-0-cl.vercel.app/:path*",
+      "destination": "https://ts-9-9-0-cl.vercel.app/cloud/9.9.0.cl/:path*",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/:path*",
