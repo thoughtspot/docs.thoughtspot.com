@@ -18,6 +18,10 @@
       "destination": "/cloud/9.10.0.cl/",
       "statusCode": 301 },
     {
+      "source": "/cloud/9.9.0.cl",
+      "destination": "/cloud/9.9.0.cl/",
+      "statusCode": 301 },
+    {
       "source": "/cloud/9.8.0.cl",
       "destination": "/cloud/9.8.0.cl/",
       "statusCode": 301 },
@@ -278,6 +282,10 @@
     {
       "source": "/cloud/9.9.0.cl/:path*",
       "destination": "https://ts-9-9-0-cl.vercel.app/:path*",
+      "statusCode": 200 },
+    {
+      "source": "/cloud/9.9.0.cl/",
+      "destination": "https://ts-9-9-0-cl.vercel.app/",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/:path*",
