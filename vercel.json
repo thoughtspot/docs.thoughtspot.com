@@ -42,6 +42,30 @@
       "destination": "/cloud/9.9.0.cl/notes",
       "statusCode": 301 },
     {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/accessibility",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/deprecation",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/release-lifecycle",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/ts-cloud-getting-started",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/ts-cloud-requirements-support",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/gcp.adoc",
+      "statusCode": 301 },
+    {
       "source": "/software/latest",
       "destination": "/software/latest/",
       "statusCode": 301 },
@@ -285,7 +309,7 @@
       "statusCode": 200 },
     {
       "source": "/cloud/9.9.0.cl/:path*",
-      "destination": "https://ts-9-9-0-cl.vercel.app/cloud/9.9.0.cl/:path*",
+      "destination": "https://ts-9-9-0-cl.netlify.app/cloud/9.9.0.cl/:path*",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/:path*",
