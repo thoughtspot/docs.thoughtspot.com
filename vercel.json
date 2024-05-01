@@ -38,6 +38,10 @@
       "destination": "/cloud/9.3.0.cl/",
       "statusCode": 301 },
     {
+      "source": "/cloud/notes",
+      "destination": "/cloud/9.9.0.cl/notes",
+      "statusCode": 301 },
+    {
       "source": "/software/latest",
       "destination": "/software/latest/",
       "statusCode": 301 },
