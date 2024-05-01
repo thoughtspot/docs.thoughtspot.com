@@ -18,10 +18,6 @@
       "destination": "/cloud/9.10.0.cl/",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.9.0.cl",
-      "destination": "/cloud/9.9.0.cl/",
-      "statusCode": 301 },
-    {
       "source": "/cloud/9.8.0.cl",
       "destination": "/cloud/9.8.0.cl/",
       "statusCode": 301 },
