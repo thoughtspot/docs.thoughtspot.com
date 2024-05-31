@@ -293,15 +293,15 @@
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/10.0.0.cl",
-      "destination": "https://help-cloud.vercel.app/cloud/10.0.0.cl/index_help",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.5.cl/index_help",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/10.1.0.cl",
-      "destination": "https://help-cloud.vercel.app/cloud/10.1.0.cl/index_help",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.5.cl/index_help",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/cloud/10.2.0.cl",
-      "destination": "https://help-cloud.vercel.app/cloud/10.2.0.cl/index_help",
+      "destination": "https://help-cloud.vercel.app/cloud/9.12.5.cl/index_help",
       "statusCode": 200 },
     {
       "source": "/ghyer95y3/sitemap-cloud.xml",
