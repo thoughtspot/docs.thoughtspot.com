@@ -74,6 +74,18 @@
       "destination": "/cloud/9.9.0.cl/gcp.adoc",
       "statusCode": 301 },
     {
+      "source": "/cloud/9.12.5.cl/time-series-forecasting",
+      "destination": "/cloud/9.12.5.cl/spotiq-forecasting",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.5.cl/connection-config",
+      "destination": "/cloud/9.12.5.cl/connections-snowflake-add#additional-configurations-create",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.5.cl/table-join",
+      "destination": "/cloud/9.12.5.cl/models#add-joins",
+      "statusCode": 301 },
+    {
       "source": "/software/latest",
       "destination": "/software/latest/",
       "statusCode": 301 },
