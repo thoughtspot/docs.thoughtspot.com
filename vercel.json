@@ -6,11 +6,11 @@
       "destination": "/software/latest/:path*",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.0.cl/:path*",
+      "source": "/cloud/9.12.5.cl/:path*",
       "destination": "/cloud/latest/:path*",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.0.cl/",
+      "source": "/cloud/9.12.5.cl/",
       "destination": "/cloud/latest/",
       "statusCode": 301 },
     {
