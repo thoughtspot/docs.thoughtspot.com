@@ -226,8 +226,8 @@
       "destination": "/software/8.4.1.sw/:path*",
       "statusCode": 301 },
     {
-      "source": "/cloud/10.0.0.cl/conditional-formatting",
-      "destination": "/cloud/10.0.0.cl/search-conditional-formatting#advanced-conditional-formatting/",
+      "source": "/cloud/latest/conditional-formatting",
+      "destination": "/cloud/latest/search-conditional-formatting#advanced-conditional-formatting/",
       "statusCode": 301 },
     {
       "source": "/software/8.4.1.sw.CU1/:path*",
