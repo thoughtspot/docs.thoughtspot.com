@@ -6,12 +6,16 @@
       "destination": "/software/latest/:path*",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.5.cl/:path*",
+      "source": "/cloud/10.0.0.cl/:path*",
       "destination": "/cloud/latest/:path*",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.5.cl/",
+      "source": "/cloud/10.0.0.cl/",
       "destination": "/cloud/latest/",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/9.12.5.cl/",
+      "destination": "/cloud/9.12.5.cl/",
       "statusCode": 301 },
     {
       "source": "/cloud/9.12.0.cl",
@@ -220,6 +224,10 @@
     {
       "source": "/software/8.4.1.sw.CU1/:path*",
       "destination": "/software/8.4.1.sw/:path*",
+      "statusCode": 301 },
+    {
+      "source": "/cloud/10.0.0.cl/conditional-formatting",
+      "destination": "/cloud/10.0.0.cl/search-conditional-formatting#advanced-conditional-formatting",
       "statusCode": 301 },
     {
       "source": "/software/8.4.1.sw.CU1/:path*",
