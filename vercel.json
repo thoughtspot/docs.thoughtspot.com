@@ -38,14 +38,6 @@
       "destination": "/cloud/9.9.0.cl/",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.8.0.cl",
-      "destination": "/cloud/9.8.0.cl/",
-      "statusCode": 301 },
-    {
-      "source": "/cloud/9.7.0.cl",
-      "destination": "/cloud/9.7.0.cl/",
-      "statusCode": 301 },
-    {
       "source": "/cloud/9.6.0.cl",
       "destination": "/cloud/9.6.0.cl/",
       "statusCode": 301 },
@@ -170,7 +162,7 @@
       "destination": "/software/latest/_images/blanknetworkconnect.png",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.5.cl/notes",
+      "source": "/cloud/10.0.0.cl/notes",
       "destination": "/cloud/latest/notes",
       "statusCode": 301 },
     {
