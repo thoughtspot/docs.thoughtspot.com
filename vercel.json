@@ -14,7 +14,7 @@
       "destination": "/cloud/latest/",
       "statusCode": 301 },
     {
-      "source": "/cloud/9.12.5.cl/",
+      "source": "/cloud/9.12.5.cl",
       "destination": "/cloud/9.12.5.cl/",
       "statusCode": 301 },
     {
