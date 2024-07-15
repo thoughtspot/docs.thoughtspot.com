@@ -91,11 +91,11 @@
       "statusCode": 301 },
     {
       "source": "/cloud/latest/time-series-forecasting",
-      "destination": "/cloud/9.12.5.cl/spotiq-forecasting",
+      "destination": "/cloud/10.0.0.cl/spotiq-forecasting",
       "statusCode": 301 },
     {
       "source": "/cloud/latest/connection-config",
-      "destination": "/cloud/9.12.5.cl/connections-snowflake-add#additional-configurations-create",
+      "destination": "/cloud/10.0.0.cl/connections-snowflake-add#additional-configurations-create",
       "statusCode": 301 },
     {
       "source": "/cloud/9.12.5.cl/connection-config",
@@ -227,7 +227,7 @@
       "statusCode": 301 },
     {
       "source": "/cloud/10.0.0.cl/conditional-formatting",
-      "destination": "/cloud/10.0.0.cl/search-conditional-formatting#advanced-conditional-formatting",
+      "destination": "/cloud/10.0.0.cl/search-conditional-formatting#advanced-conditional-formatting/",
       "statusCode": 301 },
     {
       "source": "/software/8.4.1.sw.CU1/:path*",
