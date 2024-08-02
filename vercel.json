@@ -99,11 +99,11 @@
       "statusCode": 301 },
     {
       "source": "/cloud/9.12.5.cl/table-join",
-      "destination": "/cloud/9.12.5.cl/models#add-joins/",
+      "destination": "/cloud/9.12.5.cl/tables-join#_new_join_interface/",
       "statusCode": 301 },
     {
       "source": "/cloud/latest/table-join",
-      "destination": "/cloud/9.12.5.cl/models#add-joins",
+      "destination": "/cloud/latest/tables-join#_new_join_interface/",
       "statusCode": 301 },
     {
       "source": "/software/latest",
